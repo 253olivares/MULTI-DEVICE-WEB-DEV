@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.top-section {
+  margin-top: 50px;
+}
+
+.full-width {
+  width: 100%;
+  height: 450px;
+  background-color: cadetblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gathering {
+  background-position: center top;
+  background-image: url(../images/Image1.jpg);
+}
+
+.snow {
+  background-position: center;
+  background-image: url(../images/Image2.jpg);
+}
+
+.section1 {
+  height: 675px;
+}
+
+.section2 {
+  height: 2060px;
+}
+
+nav {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  z-index: 2;
+  left: calc(50% - 700px);
+}
+nav .logo {
+  margin-top: 150px;
+  width: 100%;
+  height: 215px;
+}
+nav .logo img {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+nav hr {
+  width: 165px;
+  margin: auto;
+  height: 1px;
+}
+nav .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 350px;
+  font-size: 15px;
+}
+nav .links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 27px;
+  font-weight: 700;
+  transition: all 0.8s;
+}
+nav .links a .text-Decoration {
+  text-transform: uppercase;
+  font-style: italic;
+}
+nav .links a:hover {
+  color: #df3030;
+}
+
+.content-sections {
+  position: relative;
+  width: 1000px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.content-sections .left-triangle {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 40px 0 0;
+  border-color: chocolate transparent transparent transparent;
+}
+.content-sections .right-triangle {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 40px 0;
+  border-color: transparent chocolate transparent transparent;
+}
+.content-sections .WWA_columns {
+  width: 50%;
+  float: left;
+  min-height: 500px;
+}
+.content-sections .WWA_columns img {
+  width: 100%;
+  height: auto;
+}
+.content-sections .WWA_columns .text_padding {
+  padding-left: 25px;
+}
+.content-sections .WWA_columns .text_padding .nav_num span {
+  font-size: 30px;
+  margin-left: 15px;
+}
+.content-sections .WWA_columns .text_padding .title {
+  margin-top: 15px;
+  font-size: 60px;
+}
+.content-sections .WWA_columns .text_padding .title h1 {
+  font-style: italic;
+}
+.content-sections .WWA_columns .text_padding p {
+  padding-top: 0;
+  padding-top: none;
+  font-size: 25px;
+  line-height: 40px;
+}
+.content-sections .OW_columns {
+  width: 50%;
+  float: left;
+  min-height: 500px;
+}
+.content-sections .OW_columns .NavNum span {
+  float: right;
+  font-size: 30px;
+  margin-right: 15px;
+}
+.content-sections .OW_columns img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-sections .OW_columns .text_padding {
+  padding-left: 25px;
+}
+.content-sections .OW_columns .text_padding .title {
+  margin-top: 50px;
+  font-size: 60px;
+}
+.content-sections .OW_columns .text_padding .title h1 {
+  font-style: italic;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo .CSHead {
+  padding-top: 10px;
+  font-size: 40px;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo .case_study_examples {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo .case_study_examples div {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo .case_study_examples div div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  background-color: black;
+  z-index: 2;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo .case_study_examples div h3 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 150px;
+  position: absolute;
+  z-index: 3;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo .case_study_examples div img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo .CSsubheader {
+  padding-top: 25px;
+  font-size: 40px;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo ul li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+.content-sections .OW_columns .text_padding .caseStudiesInfo ul li:before {
+  content: "+";
+  padding-right: 4px;
+}
+.content-sections .OW_columns2 {
+  padding-top: 25px;
+  clear: both;
+  width: 100%;
+  min-height: 300px;
+}
+.content-sections .OW_columns2 img {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+.content-sections .OW_columns3 {
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+.content-sections .OW_columns3 p {
+  font-size: 20px;
+  margin-left: 25px;
+  margin-right: 20px;
+  line-height: 30px;
+}
+.content-sections .OW_columns4 {
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+.content-sections .OW_columns4 .top-text {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 20px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+.content-sections .OW_columns4 .bottom-text {
+  padding-top: 18px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 20px;
+  line-height: 30px;
+  border-left: solid 1px black;
+}
+.content-sections .clients {
+  width: 100%;
+}
+.content-sections .clients .clients_header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.content-sections .clients .clients_header h1 {
+  line-height: 100px;
+  font-size: 35px;
+}
+.content-sections .clients .clients_header hr {
+  margin-top: 50px;
+  width: 37%;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.content-sections .clients .clientsHolder {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-around;
+  margin-bottom: 50px;
+}
+.content-sections .clients .clientsHolder .ClientUser {
+  width: 225px;
+  height: 225px;
+  margin-bottom: 15px;
+}
+.content-sections .clients .clientsHolder .cat {
+  background-image: url(../images/image0.png);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .donald {
+  background-image: url(../images/Donald.png);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .dog {
+  background-image: url(../images/sad.png);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .bruh {
+  background-image: url(../images/FB_IMG_1583579680256.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .drip {
+  background-image: url(../images/drip.png);
+  background-position: top center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .mark {
+  background-image: url(../images/Mark.JPG);
+  background-position: top center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .patrick {
+  background-image: url(../images/unnamed.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .doge2 {
+  background-image: url(../images/Dog2.JPG);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .cat2 {
+  background-image: url(../images/IMG_20200630_080833_643~2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .eye {
+  background-image: url(../images/5292925.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .hotdog {
+  background-image: url(../images/image3-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .clients .clientsHolder .patrick2 {
+  background-image: url(../images/Bonk_2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.content-sections .hrbetween {
+  width: 25%;
+  height: 2px;
+  margin: auto;
+  background: black;
+  border: none;
+}
+.content-sections .wordFromClients {
+  margin-top: 75px;
+  width: 100%;
+  clear: both;
+}
+.content-sections .wordFromClients .top h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.content-sections .wordFromClients .top p {
+  width: 75%;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  line-height: 30px;
+}
+.content-sections .wordFromClients .quote {
+  padding-top: 40px;
+}
+.content-sections .wordFromClients .quote img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-sections .wordFromClients .quote .quoteText {
+  font-size: 40px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 55px;
+}
+.content-sections .wordFromClients .quote .quoteName {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 80%;
+  text-align: right;
+}
+.content-sections .wordFromClients .quote .quoteName span {
+  text-align: right;
+}
+.content-sections .wordFromClients .quote .company {
+  margin: auto;
+  width: 80%;
+  text-align: right;
+  padding-bottom: 60px;
+}
+.content-sections .wordFromClients .quote .company span {
+  text-align: right;
+}
+.content-sections .OP_column {
+  padding-bottom: 60px;
+  width: 50%;
+  float: left;
+}
+.content-sections .OP_column .nav_num {
+  padding-left: 25px;
+}
+.content-sections .OP_column .nav_num span {
+  font-size: 30px;
+  margin-left: 15px;
+}
+.content-sections .OP_column img {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+.content-sections .OP_column .title {
+  margin-top: 60px;
+  font-size: 60px;
+  margin-left: 20px;
+}
+.content-sections .OP_column .title h1 {
+  font-style: italic;
+}
+.content-sections .OP_column .OPDesc {
+  margin-left: 20px;
+}
+.content-sections .OP_column .OPDesc p {
+  padding-top: 0;
+  padding-top: none;
+  font-size: 25px;
+  line-height: 40px;
+}
+.content-sections .OPHR {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 2px;
+  border: none;
+  background: black;
+}
+.content-sections .People {
+  width: 100%;
+  padding-top: 50px;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-around;
+  margin-bottom: 50px;
+}
+.content-sections .People .OPusers {
+  width: 225px;
+  height: 225px;
+  margin-bottom: 15px;
+  background-color: coral;
+}
+.content-sections .People .brr {
+  background-image: url(../images/IMG_20200630_080833_643~2.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.content-sections .People .brr div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  background-color: black;
+  z-index: 2;
+}
+.content-sections .People .brr h3 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 250px;
+  position: absolute;
+  z-index: 3;
+}
+.content-sections .Chris_Dickey {
+  width: 100%;
+  clear: both;
+}
+.content-sections .Chris_Dickey .columnChris {
+  width: 50%;
+  float: left;
+  padding-bottom: 75px;
+}
+.content-sections .Chris_Dickey .columnChris img {
+  width: 95%;
+  margin-left: 20px;
+}
+.content-sections .Chris_Dickey .columnChris h3 {
+  margin-left: 20px;
+  font-size: 30px;
+  line-height: 10px;
+}
+.content-sections .Chris_Dickey .columnChris h4 {
+  margin-left: 20px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.content-sections .Chris_Dickey .columnChris p {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #0d0d0d;
+  clear: both;
+}

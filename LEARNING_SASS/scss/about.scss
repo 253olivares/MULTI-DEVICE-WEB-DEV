@@ -1,0 +1,22 @@
+.about{
+    height: 40%;
+    background-color:yellow;
+    .top-area {
+        display:  flex;
+
+        .par{
+            background-color: bisque ;
+
+        }
+        .image-holder{
+            background-color: brown;
+            height: 100%;
+            width: 50%;
+         img{
+             height: 500px;
+         }   
+        }
+    }
+
+}
+

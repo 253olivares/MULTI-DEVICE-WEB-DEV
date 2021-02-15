@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans/GillSans.ttf);
+}
+@font-face {
+  font-family: Prox;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.containter {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.containter h1 {
+  color: #fff;
+  font-family: "Prox";
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 75px;
+}
+.containter h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding-right: 283px;
+  padding-left: 283px;
+  font-family: "Gill";
+}
+.containter .holder {
+  width: 100%;
+  text-align: center;
+  padding-top: 35px;
+}
+.containter .holder button {
+  background-color: #79ADDC;
+  border: none;
+  color: #fff;
+  padding: 8px 6px;
+  font-size: 23px;
+  font-family: "Gill";
+  font-weight: normal;
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+  background-color: bisque;
+}
+.promo-tours .promo h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  font-family: "Prox";
+  font-weight: lighter;
+  padding-top: 37px;
+}
+.promo-tours .promo h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Prox";
+  font-weight: lighter;
+  margin-top: -20px;
+}
+.promo-tours .promo .promoHolder {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+.promo-tours .promo .promoHolder button {
+  background-color: #79ADDC;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Gill";
+  font-weight: normal;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+.promo-tours .Isreal {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .USA {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .Austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79ADDC;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerLogo {
+  padding-left: 150px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+footer .copyright h4 {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Gill";
+  line-height: 100px;
+  margin-bottom: 0px;
+}
+footer .socials {
+  padding-right: 150px;
+  color: #fff;
+}
+footer .socials i {
+  line-height: 100px;
+  border-radius: 25px;
+  font-size: 25px;
+}
+footer .socials .fa-instagram-square {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.booking-form {
+  width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.booking-form .formHolder {
+  padding-top: 40px;
+  width: 875px;
+  margin: 0 auto;
+}
+.booking-form .formHolder .fromHeader h1 {
+  font-family: "Prox";
+  font-size: 60px;
+  font-weight: lighter;
+}
+.booking-form .formHolder form {
+  padding-top: 15px;
+  width: 100%;
+}
+.booking-form .formHolder form .holding {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.booking-form .formHolder form .holding h1 {
+  line-height: 70px;
+  font-size: 25px;
+  font-family: "Gill";
+  margin-bottom: 0px;
+}
+.booking-form .formHolder form .holding input {
+  border: 3px solid #79ADDC;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Gill";
+}
+.booking-form .formHolder form .holding ::placeholder {
+  color: black;
+  font-family: "Gill";
+}
+.booking-form .formHolder form .holding .name {
+  width: 360px;
+}
+.booking-form .formHolder form .holding .email {
+  width: 480px;
+}
+.booking-form .formHolder form .holding .country {
+  width: 360px;
+}
+.booking-form .formHolder form .holding .hotel {
+  width: 480px;
+}
+.booking-form .formHolder form .holding .date {
+  width: 750px;
+}
+.booking-form .formHolder form .holding .message {
+  border: 3px solid #79ADDC;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Gill";
+  width: 100%;
+  resize: none;
+  height: 200px;
+  margin-bottom: 35px;
+}
+.booking-form .formHolder form .holding .person {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .formHolder form .holding .person .Adults {
+  border: 3px solid #79ADDC;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Gill";
+  width: 110px;
+  margin-left: 30px;
+}
+.booking-form .formHolder form .submitButton {
+  width: 100%;
+  background-color: #79ADDC;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Gill";
+  font-weight: normal;
+  border: none;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 2px;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+}
+nav .links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 20px;
+  font-family: "Gill";
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+}

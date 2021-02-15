@@ -1,0 +1,452 @@
+.content-sections{
+    position: relative;
+    width: $content-width;
+    min-height: 500px;
+    // background-color: burlywood;
+    margin: 0 auto;
+    .left-triangle{
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 40px 40px 0 0;
+        border-color: chocolate transparent transparent transparent;
+    }
+    .right-triangle{
+        top: 0;
+        right: 0;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 40px 40px 0;
+        border-color: transparent chocolate transparent transparent;
+    }
+    .WWA_columns{
+        width: 50%;
+        float: left;
+        min-height: 500px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .text_padding{
+            padding-left: 25px;
+            .nav_num{
+                span{
+                    font-size: 30px;
+                    margin-left: 15px;
+                }
+            }
+            .title{
+                margin-top: 15px;
+                font-size: 60px;
+                h1{
+                    font-style: italic;
+                }
+            }
+            p{
+                padding-top: 0;
+                padding-top: none;
+                font-size: 25px;
+                line-height: 40px;
+            }
+        }
+    }
+    .OW_columns{
+        width: 50%;
+        float: left;
+        min-height: 500px;
+        .NavNum{
+            span{
+                float: right;
+            font-size: 30px;
+            margin-right: 15px;
+            }
+        }
+        img{
+            display: block;
+            width: 100%;
+            height:  auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text_padding{
+            padding-left: 25px;
+            .title{
+                margin-top: 50px;
+                font-size: 60px;
+                h1{
+                    font-style: italic;
+                }
+            }
+            .caseStudiesInfo{
+                .CSHead{
+                    padding-top: 10px;
+                    font-size: 40px;
+                }
+                .case_study_examples{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    div{
+                        position: relative;
+                        width: 150px;
+                        height: 150px;
+                        background-color: orange;
+                        div{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 50%;
+                            background-color: black;
+                            z-index: 2;
+                        }
+                        h3{ 
+                            width: 100%;
+                            text-align: center;
+                            color: white;
+                            line-height: 150px;
+                            position: absolute;
+                            z-index: 3;
+                        }
+                        img{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .CSsubheader{
+                    padding-top: 25px;
+                    font-size: 40px;
+                }
+                ul{
+                    li{
+                        list-style-type: none;
+                        font-size: 20px;
+                        margin: 0 0 10px 0;
+                    }
+                    li:before{
+                        content: "+";
+                        padding-right: 4px;
+                    }
+                }
+            }
+
+        }
+    }
+    .OW_columns2{
+        padding-top: 25px;
+        clear: both;
+        width: 100%;
+        min-height: 300px;
+        img{
+           width: 95%;
+           height: auto;
+           margin: auto;
+           display: block;
+        }
+    }
+    .OW_columns3{
+        float: left;
+        width: 50%;
+        height: 500px;
+        p{
+            font-size: 20px;
+            margin-left: 25px;
+            margin-right: 20px;
+            line-height: 30px;
+        }
+    }
+    .OW_columns4{
+        float: left;
+        width: 50%;
+        height: 500px;
+        .top-text{
+            font-size: 20px;
+            margin-left: 15px;
+            margin-right: 20px;
+            line-height: 30px;
+            padding-bottom: 50px;
+        }
+        .bottom-text{
+            padding-top: 18px;
+            padding-left: 25px;
+            padding-bottom: 20px;
+            font-size: 20px;
+            margin-left: 15px;
+            margin-right: 20px;
+            line-height: 30px;
+            border-left: solid 1px black;
+        }
+    }
+    .clients{
+        width: 100%;
+        
+        .clients_header{
+            display: flex;
+            justify-content:space-evenly;
+            height: 100px;
+            margin-bottom: 30px;
+            h1{ 
+                line-height: 100px;
+                font-size: 35px;
+            }
+            hr{
+                margin-top: 50px;
+                width: 37%;
+                height: 2px;
+                background: black;
+                border: none;
+            }
+        }
+        .clientsHolder{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            align-items: space-around;
+            margin-bottom: 50px;
+            .ClientUser{
+                width: 225px;
+                height: 225px;
+                margin-bottom: 15px;
+            }
+            .cat{
+                background-image: url(../images/image0.png);
+                background-position: center;
+                background-size: cover;
+            }
+            .donald{
+                background-image: url(../images/Donald.png);
+                background-position: center;
+                background-size: cover;
+            }
+            .dog{
+                background-image: url(../images/sad.png);
+                background-position: center;
+                background-size: cover;
+            }
+            .bruh{
+                background-image: url(../images/FB_IMG_1583579680256.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .drip{
+                background-image: url(../images/drip.png);
+                background-position: top center;
+                background-size: cover;
+            }
+            .mark{
+                background-image: url(../images/Mark.JPG);
+                background-position: top center;
+                background-size: cover;
+            }
+            .patrick{
+                background-image: url(../images/unnamed.jpg);
+                background-position: top center;
+                background-size: cover;
+            }
+            .doge2{
+                background-image: url(../images/Dog2.JPG);
+                background-position: center;
+                background-size: cover;
+            }
+            .cat2{
+                background-image: url(../images/IMG_20200630_080833_643~2.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .eye{
+                background-image: url(../images/5292925.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .hotdog{
+                background-image: url(../images/image3-1.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            .patrick2{
+                background-image: url(../images/Bonk_2.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+        }
+       
+    }
+    .hrbetween{
+        width: 25%;
+        height: 2px;
+        margin: auto;
+        background: black;
+        border: none;
+    }
+    .wordFromClients{
+        margin-top: 75px;
+        width: 100%;
+        clear: both;
+        .top{
+            h2{
+                font-size: 40px;
+                text-align: center;
+            }
+            p{  
+                width: 75%;
+                font-size: 20px;
+                text-align: center;
+                 margin: auto;
+                 line-height: 30px;
+            }
+        }
+        .quote{
+            padding-top: 40px;
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .quoteText{
+                font-size: 40px;
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                margin-top: 25px;
+                line-height: 55px;
+            }
+            .quoteName{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin: auto;
+                width: 80%;
+                text-align: right;
+                span{
+                    text-align: right;
+                }
+            }
+            .company{
+                margin: auto;
+                width: 80%;
+                text-align: right;
+                span{
+                    text-align: right;
+                }
+                padding-bottom: 60px;
+            }
+        }   
+    }
+    .OP_column{
+        padding-bottom: 60px;
+        width: 50%;
+        float: left;
+            .nav_num{
+                padding-left: 25px;
+                span{
+                    font-size: 30px;
+                    margin-left: 15px;
+                }
+            }
+        img{
+            width: 90%;
+            height: auto;
+            margin: auto;
+            display: block;
+            margin-top: 20px;
+        }
+        .title{
+            margin-top: 60px;
+            font-size: 60px;
+            margin-left: 20px;
+            h1{
+                font-style: italic;
+            }
+        }
+        .OPDesc{
+            margin-left: 20px;
+            p{
+                padding-top: 0;
+                padding-top: none;
+                font-size: 25px;
+                line-height: 40px;
+            }
+        }
+    }
+    .OPHR{
+        margin-left: auto;
+        margin-right: auto;
+            width: 25%;
+            height: 2px;
+            border: none;
+            background: black;
+      
+    }
+    .People{
+        width: 100%;
+        padding-top: 50px;
+        clear: both;
+        display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            align-items: space-around;
+            margin-bottom: 50px;
+            .OPusers{
+                width: 225px;
+                height: 225px;
+                margin-bottom: 15px;
+                background-color: coral;
+            }
+            .brr{
+                background-image: url(../images/IMG_20200630_080833_643~2.jpg);
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                div{
+                    position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 50%;
+                            background-color: black;
+                            z-index: 2;
+                }
+                h3{ 
+                    width: 100%;
+                    text-align: center;
+                    color: white;
+                    line-height: 250px;
+                    position: absolute;
+                    z-index: 3;
+                }
+            }
+    }
+    .Chris_Dickey{
+        width: 100%;
+        clear: both;
+        .columnChris{
+        width: 50%;
+        float: left;
+        padding-bottom: 75px;
+        img{
+            width: 95%;
+            margin-left: 20px;
+        }
+        h3{
+            margin-left: 20px;
+            font-size: 30px;
+            line-height: 10px;
+        }
+        h4{
+            margin-left: 20px;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        p{
+            margin-left: 20px;
+            font-size: 20px;
+            line-height: 30px; 
+        }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.footer{
+    width: 100%;
+    height: 75px;
+    background-color: #1a1a1a;
+    position:  relative;
+
+    .Socials{
+        float: left; 
+        margin-left: 7.5%;
+        height: 100%;
+        display: table;
+        width: 25%;
+    }
+    
+    .facebook {
+        position: absolute;
+        z-index: 2;
+        bottom:15px;
+        color: white;
+        font-size: 40px;
+        padding: 10px;
+        margin-left: 10px;
+        transition: bottom .5s ease, color .5s ease;
+    }
+
+    .facebook:hover {
+        cursor: pointer;
+        bottom: 25px;
+        color: #3b5998;
+    }
+
+    .instagram {
+        position: absolute;
+        z-index: 2;
+        font-size: 40px;
+        padding: 10px;
+        bottom:15px;
+        margin-left: 60px;
+        color: white;
+        transition: bottom .5s ease, color .5s ease;
+    }
+
+    .instagram:hover {
+        cursor: pointer;
+        bottom: 25px;
+        color: #E1306C;
+    }
+
+    .twitter {
+        position: absolute;
+        z-index: 2;
+        font-size: 40px;
+        padding: 10px;
+        bottom:15px;
+        margin-left: 110px;
+        color: white;
+        transition: bottom .5s ease, color .5s ease;
+    }
+
+.twitter:hover {
+    cursor: pointer;
+    bottom: 25px;
+    color: #1DA1F2;
+}
+
+.snapchat {
+    position: absolute;
+    z-index: 2;
+    font-size: 40px;
+    bottom:15px;
+    padding: 10px;
+    margin-left: 160px;
+    color: white;
+    transition: bottom .5s ease, color .5s ease;
+}
+
+.snapchat:hover {
+    cursor: pointer;
+    bottom: 25px;
+    color: #FFFC00;
+
+}
+    
+    h4{    
+        color: white;
+        float:right;
+        margin-right:7.5% ;
+        font-size: 25px;
+        line-height: 75px ;
+        margin-bottom: 0px;
+    }
+}

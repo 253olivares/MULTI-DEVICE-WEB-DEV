@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: #1a1a1a;
+  z-index: 1;
+}
+nav .nav-holder {
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+}
+nav .nav-holder a {
+  width: 15%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1a1a1a;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+nav .nav-holder a:hover {
+  height: 100px;
+  background-color: #666666;
+}
+nav .nav-holder .portfolio {
+  width: 40%;
+  height: 80px;
+  color: white;
+  line-height: 80px;
+}
+nav .nav-holder .portfolio p {
+  font-size: 55px;
+  float: right;
+  margin-right: 50px;
+}
+
+.home_content {
+  background-color: aquamarine;
+  background-image: url(../img/image_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home_content .spacing {
+  height: 50vh;
+  display: block;
+}
+.home_content .about_me {
+  width: 100%;
+  background-color: white;
+}
+.home_content .about_me .about_me_spacing {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+.home_content .about_me .about_me_spacing .about_me_header {
+  top: -25px;
+  width: 50%;
+  left: -10%;
+  position: absolute;
+  color: white;
+  background-color: #1a1a1a;
+  height: 75px;
+  line-height: 75px;
+}
+.home_content .about_me .about_me_spacing .about_me_header h1 {
+  font-size: 50px;
+  margin-left: 20%;
+}
+.home_content .about_me .about_me_spacing .about_me_content {
+  padding-top: 75px;
+}
+.home_content .about_me .about_me_spacing .about_me_content .information_about_me {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.home_content .about_me .about_me_spacing .about_me_content .information_about_me .IAM_text {
+  width: 65%;
+  display: block;
+  float: left;
+}
+.home_content .about_me .about_me_spacing .about_me_content .information_about_me .IAM_text p {
+  text-indent: 50px;
+  width: 90%;
+}
+.home_content .about_me .about_me_spacing .about_me_content .information_about_me .IAM_image {
+  width: 35%;
+  display: block;
+  float: right;
+}
+.home_content .about_me .about_me_spacing .about_me_content .information_about_me .IAM_image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 75%;
+}
+.home_content .hobbies {
+  padding-bottom: 25px;
+  background-color: white;
+}
+.home_content .hobbies .hobbies_spaces {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+.home_content .hobbies .hobbies_spaces .hobbies_header h1 {
+  font-size: 30px;
+}
+.home_content .hobbies .hobbies_spaces .hobbies_information p {
+  text-indent: 50px;
+  font-size: 25px;
+}
+
+.footer {
+  width: 100%;
+  height: 75px;
+  background-color: #1a1a1a;
+  position: relative;
+}
+.footer .Socials {
+  float: left;
+  margin-left: 7.5%;
+  height: 100%;
+  display: table;
+  width: 25%;
+}
+.footer .facebook {
+  position: absolute;
+  z-index: 2;
+  bottom: 15px;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  transition: bottom 0.5s ease, color 0.5s ease;
+}
+.footer .facebook:hover {
+  cursor: pointer;
+  bottom: 25px;
+  color: #3b5998;
+}
+.footer .instagram {
+  position: absolute;
+  z-index: 2;
+  font-size: 40px;
+  padding: 10px;
+  bottom: 15px;
+  margin-left: 60px;
+  color: white;
+  transition: bottom 0.5s ease, color 0.5s ease;
+}
+.footer .instagram:hover {
+  cursor: pointer;
+  bottom: 25px;
+  color: #E1306C;
+}
+.footer .twitter {
+  position: absolute;
+  z-index: 2;
+  font-size: 40px;
+  padding: 10px;
+  bottom: 15px;
+  margin-left: 110px;
+  color: white;
+  transition: bottom 0.5s ease, color 0.5s ease;
+}
+.footer .twitter:hover {
+  cursor: pointer;
+  bottom: 25px;
+  color: #1DA1F2;
+}
+.footer .snapchat {
+  position: absolute;
+  z-index: 2;
+  font-size: 40px;
+  bottom: 15px;
+  padding: 10px;
+  margin-left: 160px;
+  color: white;
+  transition: bottom 0.5s ease, color 0.5s ease;
+}
+.footer .snapchat:hover {
+  cursor: pointer;
+  bottom: 25px;
+  color: #FFFC00;
+}
+.footer h4 {
+  color: white;
+  float: right;
+  margin-right: 7.5%;
+  font-size: 25px;
+  line-height: 75px;
+  margin-bottom: 0px;
+}
+
+.projects_content {
+  background-color: aquamarine;
+  background-image: url(../img/project.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.projects_content .spacing {
+  height: 50%;
+  display: block;
+}
+.projects_content .projects {
+  display: block;
+  width: 100%;
+  height: 65%;
+  background-color: white;
+}
+.projects_content .projects .projects_spacing {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+.projects_content .projects .projects_spacing .projects_header {
+  top: -25px;
+  width: 50%;
+  left: -10%;
+  position: absolute;
+  color: white;
+  background-color: #1a1a1a;
+  height: 75px;
+  line-height: 75px;
+}
+.projects_content .projects .projects_spacing .projects_header h1 {
+  font-size: 50px;
+  margin-left: 20%;
+}
+.projects_content .projects .projects_spacing .projects_contents {
+  padding-top: 75px;
+}
+.projects_content .projects .projects_spacing .projects_contents .information_projects {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.projects_content .projects .projects_spacing .projects_contents .information_projects h1 {
+  font-size: 30px;
+}
+.projects_content .projects .projects_spacing .projects_contents .IP_text {
+  width: 65%;
+  display: block;
+  float: left;
+}
+.projects_content .projects .projects_spacing .projects_contents .IP_text p {
+  text-indent: 50px;
+  width: 90%;
+}
+.projects_content .projects .projects_spacing .projects_contents .IP_image {
+  width: 35%;
+  display: block;
+  float: right;
+}
+.projects_content .projects .projects_spacing .projects_contents .IP_image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  width: 75%;
+}
+.projects_content .sections-between {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.projects_content .projects2 {
+  display: block;
+  width: 100%;
+  height: 60%;
+  background-color: white;
+}
+.projects_content .projects2 .projects2_spacing {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+.projects_content .projects2 .projects2_spacing .projects2_contents {
+  padding-top: 15px;
+}
+.projects_content .projects2 .projects2_spacing .projects2_contents .information_projects2 {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.projects_content .projects2 .projects2_spacing .projects2_contents .information_projects2 h1 {
+  font-size: 30px;
+}
+.projects_content .projects2 .projects2_spacing .projects2_contents .IP2_text {
+  width: 65%;
+  display: block;
+  float: left;
+}
+.projects_content .projects2 .projects2_spacing .projects2_contents .IP2_text p {
+  text-indent: 50px;
+  width: 90%;
+}
+.projects_content .projects2 .projects2_spacing .projects2_contents .IP2_image {
+  width: 35%;
+  display: block;
+  float: right;
+}
+.projects_content .projects2 .projects2_spacing .projects2_contents .IP2_image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  width: 75%;
+}
+.projects_content .projects3 {
+  display: block;
+  width: 100%;
+  height: 60%;
+  background-color: white;
+}
+.projects_content .projects3 .projects3_spacing {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+.projects_content .projects3 .projects3_spacing .projects3_contents {
+  padding-top: 15px;
+}
+.projects_content .projects3 .projects3_spacing .projects3_contents .information_projects3 {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.projects_content .projects3 .projects3_spacing .projects3_contents .information_projects3 h1 {
+  font-size: 30px;
+}
+.projects_content .projects3 .projects3_spacing .projects3_contents .IP3_text {
+  width: 65%;
+  display: block;
+  float: left;
+}
+.projects_content .projects3 .projects3_spacing .projects3_contents .IP3_text p {
+  text-indent: 50px;
+  width: 90%;
+}
+.projects_content .projects3 .projects3_spacing .projects3_contents .IP3_image {
+  width: 35%;
+  display: block;
+  float: right;
+}
+.projects_content .projects3 .projects3_spacing .projects3_contents .IP3_image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  width: 75%;
+}

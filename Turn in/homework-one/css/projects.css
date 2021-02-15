@@ -1,0 +1,10 @@
+.projects_content {
+  background-color: aquamarine;
+  background-image: url(../img/project.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projects_content .spacing {
+  height: 50vh;
+  display: block;
+}

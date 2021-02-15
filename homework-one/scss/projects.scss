@@ -1,0 +1,170 @@
+.projects_content{
+    background-color: aquamarine;
+    background-image: url(../img/project.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+      .spacing{
+        height: 50%;
+        display: block;
+    }
+    .projects{
+        display: block;
+        width:100%;
+        height:65%;
+        background-color: white;
+        .projects_spacing{
+            width: 85%;
+            margin: auto;
+            position: relative;
+            .projects_header{
+                top: -25px;
+                width: 50%;
+                left: -10%;
+                position: absolute;
+                color: white;
+                background-color: #1a1a1a;
+                height: 75px;
+                line-height: 75px;
+                h1{
+                    font-size: 50px;
+                    margin-left: 20%;
+                }
+            }
+            .projects_contents{
+                padding-top: 75px;
+                .information_projects{
+                    padding-top: 10px;
+                    font-size: 25px;
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+                .IP_text{
+                    width: 65%;
+                    //debugging
+                    //background-color: yellow;
+                    display: block;
+                    float: left;
+                    p{
+                        text-indent: 50px;
+                        width: 90%;
+                    }
+                }
+                .IP_image{
+                    width: 35%;
+                    //debugging
+                    //background-color: orange;
+                    display: block;
+                    float:  right;
+                    img{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border-radius: 5%;
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+    .sections-between {
+        width: 100%;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+    .projects2{
+        display: block;
+        width:100%;
+        height:60%;
+        background-color: white;
+        .projects2_spacing{
+            width: 85%;
+            margin: auto;
+            position: relative;
+            .projects2_contents{
+                padding-top: 15px;
+                .information_projects2{
+                    padding-top: 10px;
+                    font-size: 25px;
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+                .IP2_text{
+                    width: 65%;
+                    //debugging
+                    //background-color: yellow;
+                    display: block;
+                    float: left;
+                    p{
+                        text-indent: 50px;
+                        width: 90%;
+                    }
+                }
+                .IP2_image{
+                    width: 35%;
+                    //debugging
+                    //background-color: orange;
+                    display: block;
+                    float:  right;
+                    img{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border-radius: 5%;
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+    .projects3{
+        display: block;
+        width:100%;
+        height:60%;
+        background-color: white;
+        .projects3_spacing{
+            width: 85%;
+            margin: auto;
+            position: relative;
+            .projects3_contents{
+                padding-top: 15px;
+                .information_projects3{
+                    padding-top: 10px;
+                    font-size: 25px;
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+                .IP3_text{
+                    width: 65%;
+                    //debugging
+                    //background-color: yellow;
+                    display: block;
+                    float: left;
+                    p{
+                        text-indent: 50px;
+                        width: 90%;
+                    }
+                }
+                .IP3_image{
+                    width: 35%;
+                    //debugging
+                    //background-color: orange;
+                    display: block;
+                    float:  right;
+                    img{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border-radius: 5%;
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}

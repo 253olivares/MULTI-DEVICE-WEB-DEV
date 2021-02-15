@@ -1,0 +1,86 @@
+.home_content{
+    background-color: aquamarine;
+    background-image: url(../img/image_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .spacing{
+        height: 50vh;
+        display: block;
+    }
+    .about_me{
+        width:100%;
+        background-color: white;
+        .about_me_spacing{
+            width: 85%;
+            margin: auto;
+            position: relative;
+            .about_me_header{
+                top: -25px;
+                width: 50%;
+                left: -10%;
+                position: absolute;
+                color: white;
+                background-color: #1a1a1a;
+                height: 75px;
+                line-height: 75px;
+                h1{
+                    font-size: 50px;
+                    margin-left: 20%;
+                }
+            }
+            .about_me_content{
+                padding-top: 75px;
+                .information_about_me{
+                    padding-top: 10px;
+                    font-size: 25px;
+                    .IAM_text{
+                        width: 65%;
+                        //debugging
+                        //background-color: yellow;
+                        display: block;
+                        float: left;
+                        p{
+                            text-indent: 50px;
+                            width: 90%;
+                        }
+                    }
+                    .IAM_image{
+                        width: 35%;
+                        //debugging
+                        //background-color: orange;
+                        display: block;
+                        float:  right;
+                        img{
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            border-radius: 50%;
+                            width: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hobbies{
+        padding-bottom: 25px;
+        background-color: white;
+        .hobbies_spaces{
+            width: 85%;
+            margin: auto;
+            position: relative;
+            .hobbies_header{
+                h1{
+                    font-size: 30px;
+                }
+            }
+            .hobbies_information{
+                p{
+                    text-indent: 50px;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
