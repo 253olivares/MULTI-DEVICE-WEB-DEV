@@ -53,6 +53,15 @@
                 .date{
                     width: 750px;
                 }
+                .date::-webkit-calendar-picker-indicator{
+                    color: rgba(0, 0, 0, 0);
+                    opacity: 1;
+                    display: block;
+                    background: url(../images/calendar.svg) no-repeat;
+                    width: 20px;
+                    height: 20px;
+                    border-width: thin;
+                }
                 .message{
                     border: 3px solid $site-blue;
                     padding: 15px;

@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #79ADDC;
   border: none;
   color: #fff;
-  padding: 8px 6px;
+  padding: 8px;
   font-size: 23px;
   font-family: "Gill";
   font-weight: normal;
@@ -223,6 +223,15 @@ footer .socials .fa-instagram-square {
 .booking-form .formHolder form .holding .date {
   width: 750px;
 }
+.booking-form .formHolder form .holding .date::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(../images/calendar.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
 .booking-form .formHolder form .holding .message {
   border: 3px solid #79ADDC;
   padding: 15px;
@@ -278,6 +287,11 @@ nav .links {
   font-family: "Gill";
 }
 nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+}
+nav span {
   text-decoration: none;
   color: #fff;
   margin: auto;
