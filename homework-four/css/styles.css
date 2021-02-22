@@ -45,13 +45,14 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   padding-top: 75px;
 }
-.containter h3 {
+.containter p {
   color: #fff;
   text-align: center;
   font-size: 20px;
-  width: 30%;
+  width: 500px;
   margin: auto;
   font-family: "Gill";
+  font-style: italic;
 }
 .containter .holder {
   width: 100%;
@@ -63,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: none;
   color: #fff;
   padding: 8px;
-  font-size: 23px;
+  font-size: 15px;
   font-family: "Gill";
 }
 
@@ -131,6 +132,14 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 
+@media only screen and (max-width: 950px) {
+  .promo-tours {
+    width: 236px;
+  }
+  .promo-tours .promo {
+    margin-bottom: 20px;
+  }
+}
 footer {
   width: 100%;
   clear: both;
@@ -273,7 +282,8 @@ footer .socials .fa-instagram-square {
 }
 
 nav {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   height: 60px;
   margin: 20px auto 0 auto;
   display: flex;
@@ -289,7 +299,7 @@ nav .links {
   height: 42px;
   align-self: center;
   display: flex;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Gill";
 }
 nav a {
