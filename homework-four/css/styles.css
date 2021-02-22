@@ -338,19 +338,6 @@ footer .socials .fa-instagram-square {
     width: 100%;
     margin-left: 0px;
   }
-  .booking-form .formHolder form .submitButton {
-    width: 95%;
-    background-color: #79ADDC;
-    color: #fff;
-    font-size: 20px;
-    font-family: "Gill";
-    font-weight: normal;
-    border: none;
-    padding: 15px;
-    display: block;
-    margin: auto;
-    border-radius: 25px;
-  }
 }
 nav {
   width: 100%;
