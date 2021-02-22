@@ -4,7 +4,8 @@ footer{
     margin: 0 auto;
     background-color: $site-blue;
     .footerHolder{
-        width: 900px;
+        width: 100%;
+        max-width: 900px;
         margin: auto;
         display: flex;
     justify-content: space-between;

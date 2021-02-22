@@ -138,7 +138,8 @@ footer {
   background-color: #79ADDC;
 }
 footer .footerHolder {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: auto;
   display: flex;
   justify-content: space-between;
