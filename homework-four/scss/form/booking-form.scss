@@ -102,3 +102,82 @@
         }
     }
 }
+
+@media only screen and (max-width: 950px){
+    .booking-form{
+        width: 100%;
+        margin: 0 auto; 
+        padding-bottom: 100px;
+        .formHolder{
+            padding-top: 40px;
+            width: 98%;
+            margin: 0 auto;
+            .fromHeader{
+                h1{
+                    font-family: "Prox";
+                    font-size: 60px;
+                    font-weight: lighter;
+                }
+            }
+            form{
+                padding-top: 15px;
+                width: 100%;
+                .holding{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column; 
+                    margin-bottom: 25px;
+
+
+                    .name{
+                        width: 100%;
+                        margin-bottom: 25px;
+                    }
+                    .email {
+                        width: 100%;
+                    }
+                    .country{
+                        width: 100%;
+                        margin-bottom: 25px;
+                    }
+                    .hotel{
+                        width: 100%;
+                    }
+                    .date{
+                        width: 100%;
+                    }
+                    .person{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column; 
+                        .Adults{
+                                border: 3px solid $site-blue;
+                                padding: 15px;
+                                font-size: 20px;
+                                font-family: "Gill";
+                                width: 100%;
+                                margin-left: 0px;
+                                
+                        }
+    
+                    }
+                }
+                .submitButton{
+                    width: 95%;
+                    background-color: $site-blue;
+                    color: $white;
+                    font-size: 20px;
+                    font-family: "Gill";
+                    font-weight: normal;
+                    border: none;
+                    padding:15px;
+                    display: block;
+                    margin: auto;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+
+}

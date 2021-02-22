@@ -281,6 +281,77 @@ footer .socials .fa-instagram-square {
   border-radius: 25px;
 }
 
+@media only screen and (max-width: 950px) {
+  .booking-form {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+  .booking-form .formHolder {
+    padding-top: 40px;
+    width: 98%;
+    margin: 0 auto;
+  }
+  .booking-form .formHolder .fromHeader h1 {
+    font-family: "Prox";
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .booking-form .formHolder form {
+    padding-top: 15px;
+    width: 100%;
+  }
+  .booking-form .formHolder form .holding {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  .booking-form .formHolder form .holding .name {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .booking-form .formHolder form .holding .email {
+    width: 100%;
+  }
+  .booking-form .formHolder form .holding .country {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .booking-form .formHolder form .holding .hotel {
+    width: 100%;
+  }
+  .booking-form .formHolder form .holding .date {
+    width: 100%;
+  }
+  .booking-form .formHolder form .holding .person {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .booking-form .formHolder form .holding .person .Adults {
+    border: 3px solid #79ADDC;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Gill";
+    width: 100%;
+    margin-left: 0px;
+  }
+  .booking-form .formHolder form .submitButton {
+    width: 95%;
+    background-color: #79ADDC;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Gill";
+    font-weight: normal;
+    border: none;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+  }
+}
 nav {
   width: 100%;
   max-width: 900px;
