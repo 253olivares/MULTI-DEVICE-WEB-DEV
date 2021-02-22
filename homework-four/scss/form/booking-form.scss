@@ -1,0 +1,104 @@
+.booking-form{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; 
+    padding-bottom: 100px;
+    .formHolder{
+        padding-top: 40px;
+        width: 875px;
+        margin: 0 auto;
+        .fromHeader{
+            h1{
+                font-family: "Prox";
+                font-size: 60px;
+                font-weight: lighter;
+            }
+        }
+        form{
+            padding-top: 15px;
+            width: 100%;
+            .holding{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 25px;
+                h1{
+                    line-height: 70px;
+                    font-size: 25px;
+                    font-family: "Gill";
+                    margin-bottom: 0px;
+                }
+                input{
+                    border: 3px solid $site-blue;
+                    padding: 15px;
+                    font-size: 20px;
+                    font-family: "Gill";
+                    
+                }
+                ::placeholder{
+                    color: black;
+                    font-family: "Gill";
+                }
+                .name{
+                    width: 360px;
+                }
+                .email {
+                    width: 480px;
+                }
+                .country{
+                    width: 360px;
+                }
+                .hotel{
+                    width: 480px;
+                }
+                .date{
+                    width: 750px;
+                }
+                .date::-webkit-calendar-picker-indicator{
+                    color: rgba(0, 0, 0, 0);
+                    opacity: 1;
+                    display: block;
+                    background: url(../images/calendar.svg) no-repeat;
+                    width: 20px;
+                    height: 20px;
+                    border-width: thin;
+                }
+                .message{
+                    border: 3px solid $site-blue;
+                    padding: 15px;
+                    font-size: 20px;
+                    font-family: "Gill";
+                    width: 100%;
+                    resize: none;
+                    height: 200px;
+                    margin-bottom: 35px;
+                }
+                .person{
+                    display: flex;
+                    justify-content: space-between;
+                    .Adults{
+                            border: 3px solid $site-blue;
+                            padding: 15px;
+                            font-size: 20px;
+                            font-family: "Gill";
+                            width: 110px;
+                            margin-left: 30px;
+                            
+                    }
+
+                }
+            }
+            .submitButton{
+                width: 100%;
+                background-color: $site-blue;
+                color: $white;
+                font-size: 20px;
+                font-family: "Gill";
+                font-weight: normal;
+                border: none;
+                padding:15px;
+                border-radius: 25px;
+            }
+        }
+    }
+}
