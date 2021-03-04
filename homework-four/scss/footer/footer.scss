@@ -12,7 +12,6 @@ footer{
     justify-content: space-between;
     }
     .footerLogo{
-        padding-left: 50px;
         display: block;
         margin-top: auto;
         margin-bottom: auto;
@@ -27,7 +26,6 @@ footer{
         }
     }
     .socials{
-        padding-right: 50px;
         color: $white;
         i{
             line-height: 100px;
@@ -37,6 +35,13 @@ footer{
         .fa-instagram-square{
             padding-left: 21px;
             padding-right: 21px;
+        }
+    }
+}
+@media only screen and (max-width: 950px){
+    footer{
+        .footerHolder{
+            width: 97%;
         }
     }
 }

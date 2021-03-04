@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  clear: both;
+  min-height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.holder {
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans/GillSans.ttf);
+}
+@font-face {
+  font-family: Prox;
+  src: url(fonts/Simonson-Proxima.otf);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  min-height: 100px;
+  margin: 0 auto;
+  background-color: #79ADDC;
+}
+footer .footerHolder {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerLogo {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+footer .copyright h4 {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Gill";
+  line-height: 100px;
+  margin-bottom: 0px;
+}
+footer .socials {
+  color: #fff;
+}
+footer .socials i {
+  line-height: 100px;
+  border-radius: 25px;
+  font-size: 25px;
+}
+footer .socials .fa-instagram-square {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+@media only screen and (max-width: 950px) {
+  footer .footerHolder {
+    width: 97%;
+  }
+}
+nav {
+  width: 100%;
+  max-width: 900px;
+  height: 60px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+}
+nav .links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill";
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+nav span {
+  text-decoration: none;
+  color: #79ADDC;
+  margin: auto;
+}
+
+@media only screen and (max-width: 950px) {
+  nav {
+    width: 97%;
+  }
+}
+.AboutInfo {
+  clear: both;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.AboutInfo .aboutcontent {
+  padding-top: 70px;
+}
+.AboutInfo .aboutcontent .title {
+  font-size: 60px;
+  font-family: "Prox";
+  text-decoration: none;
+  margin-bottom: 0px;
+  height: 65px;
+  letter-spacing: 5px;
+}
+.AboutInfo .aboutcontent hr {
+  width: 160px;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.AboutInfo .aboutcontent .infotext {
+  padding-top: 35px;
+  font-size: 16px;
+  font-family: "Gill";
+}
+.AboutInfo .clientquotes {
+  margin-top: 95px;
+  margin-bottom: 150px;
+}
+.AboutInfo .clientquotes .title {
+  font-size: 40px;
+  font-family: "Prox";
+  text-decoration: none;
+  margin-bottom: 0px;
+  height: 50px;
+  letter-spacing: 5px;
+}
+.AboutInfo .clientquotes hr {
+  width: 260px;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.AboutInfo .clientquotes .client1 {
+  margin-top: 35px;
+  width: 720px;
+  height: 150px;
+  font-family: "Gill";
+}
+.AboutInfo .clientquotes .client1 .image {
+  width: 260px;
+  height: 150px;
+  float: left;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/about-client-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.AboutInfo .clientquotes .client1 .text {
+  position: relative;
+  float: right;
+  width: 440px;
+  height: 150px;
+  font-size: 16px;
+}
+.AboutInfo .clientquotes .client1 .text .person {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: "Prox";
+  font-size: 20px;
+  color: #79ADDC;
+}
+.AboutInfo .clientquotes .client2 {
+  margin-top: 35px;
+  width: 720px;
+  height: 150px;
+  font-family: "Gill";
+}
+.AboutInfo .clientquotes .client2 .image {
+  width: 260px;
+  height: 150px;
+  float: left;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/about-client-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.AboutInfo .clientquotes .client2 .text {
+  position: relative;
+  float: right;
+  width: 440px;
+  height: 150px;
+  font-size: 16px;
+}
+.AboutInfo .clientquotes .client2 .text .person {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+  font-family: "Prox";
+  color: #79ADDC;
+}
+
+@media only screen and (max-width: 950px) {
+  .AboutInfo {
+    width: 97%;
+  }
+}

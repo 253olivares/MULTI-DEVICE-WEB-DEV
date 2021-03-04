@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 @font-face {
   font-family: Prox;
-  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+  src: url(fonts/Simonson-Proxima.otf);
 }
 .containter {
   width: 100%;
@@ -155,7 +155,6 @@ footer .footerHolder {
   justify-content: space-between;
 }
 footer .footerLogo {
-  padding-left: 50px;
   display: block;
   margin-top: auto;
   margin-bottom: auto;
@@ -168,7 +167,6 @@ footer .copyright h4 {
   margin-bottom: 0px;
 }
 footer .socials {
-  padding-right: 50px;
   color: #fff;
 }
 footer .socials i {
@@ -181,6 +179,11 @@ footer .socials .fa-instagram-square {
   padding-right: 21px;
 }
 
+@media only screen and (max-width: 950px) {
+  footer .footerHolder {
+    width: 97%;
+  }
+}
 .booking-form {
   width: 100%;
   max-width: 900px;
@@ -289,7 +292,7 @@ footer .socials .fa-instagram-square {
   }
   .booking-form .formHolder {
     padding-top: 40px;
-    width: 98%;
+    width: 97%;
     margin: 0 auto;
   }
   .booking-form .formHolder .fromHeader h1 {
@@ -369,4 +372,10 @@ nav span {
   text-decoration: none;
   color: #79ADDC;
   margin: auto;
+}
+
+@media only screen and (max-width: 950px) {
+  nav {
+    width: 97%;
+  }
 }
