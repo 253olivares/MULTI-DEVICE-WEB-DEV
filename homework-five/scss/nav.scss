@@ -31,7 +31,15 @@ nav{
     }
 }
 @media only screen and (max-width: 950px){
-   nav{
-       width: 97%;
-   }
-}
+    nav{
+        width: 95%;
+    }
+ }
+ @media only screen and (max-width: 750px){
+    nav{
+        min-width: 750px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }
+ 
