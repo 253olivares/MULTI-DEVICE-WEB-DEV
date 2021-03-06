@@ -1,0 +1,40 @@
+.containter{
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto ;
+    background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    h1{
+        color: $white;
+        font-family: "Prox";
+        font-size: 60px;
+        font-weight: lighter;
+        text-align: center;
+        padding-top: 75px;
+    }
+    p{
+        color: $white;
+        text-align: center;
+        font-size: 20px;
+        width: 500px;
+        margin: auto;
+        font-family: "Gill";
+        font-style: italic;
+    }
+    .holder{
+        width: 100%;
+        text-align: center;
+        padding-top: 35px;
+        button{
+            background-color: $site-blue;
+            border: none;
+            color: $white;
+            padding: 8px;
+            font-size: 15px;
+            font-family: "Gill";
+        }
+    }
+}

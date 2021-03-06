@@ -5,7 +5,6 @@ nav{
     margin: 20px auto 0 auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: $black solid 2px;
 
     .logo{
         width: 136px;
@@ -28,6 +27,18 @@ nav{
         text-decoration: none;
         color: $site-blue;
         margin: auto;
+    }
+}
+.black{
+    border-bottom: $black solid 2px;
+    a{
+        color: $black;
+    }
+}
+.white{
+    border-bottom: $white solid 2px;
+    a{
+        color: $white;
     }
 }
 @media only screen and (max-width: 950px){
