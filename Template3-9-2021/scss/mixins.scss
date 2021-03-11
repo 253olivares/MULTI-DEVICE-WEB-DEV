@@ -1,0 +1,4 @@
+@mixin center($elementWidth, $elementMargin){
+    width: $elementWidth;
+    margin: $elementMargin;
+}
