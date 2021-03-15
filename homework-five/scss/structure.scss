@@ -23,4 +23,15 @@ body::-webkit-scrollbar {
 h1, h2,h3,h4,h5,h6,p {
         margin-bottom: 16px;
     }
+
+    @font-face {
+        font-family: Gill;
+        src: url(fonts/GillSans/GillSans.ttf);
+    }
+    
+    @font-face {
+        font-family: Prox;
+        src: url(fonts/Simonson-Proxima.otf);
+    }
+    
     
