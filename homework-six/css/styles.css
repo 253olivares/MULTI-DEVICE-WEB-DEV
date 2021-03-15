@@ -81,14 +81,7 @@ nav span {
 
 @media only screen and (max-width: 950px) {
   nav {
-    width: 95%;
-  }
-}
-@media only screen and (max-width: 750px) {
-  nav {
-    min-width: 750px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100%;
   }
 }
 .containter {
@@ -287,10 +280,250 @@ nav span {
   background-position: center;
   background-size: cover;
 }
+.tourPage .tours .Zealand {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tourPage .tours .France {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tourPage .tours .Egypt {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tourPage .tours .Japan {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tourPage .tours .Canada {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tourPage .tours .UAE {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @media all and (max-width: 950px) {
   .tourPage .tours {
     flex-direction: column;
     align-items: center;
+  }
+}
+.tour_individual .tour_hero {
+  width: 100%;
+  max-width: 900px;
+  height: 413px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 50px auto auto auto;
+  position: relative;
+}
+.tour_individual .tour_hero .header {
+  color: #fff;
+  padding-left: 25px;
+  padding-top: 18px;
+  font-size: 60px;
+  font-family: "Prox";
+}
+.tour_individual .tour_hero .price {
+  position: absolute;
+  color: #fff;
+  bottom: 5px;
+  right: 5px;
+  font-family: "Prox";
+  font-size: 25px;
+  height: 25px;
+}
+.tour_individual .isreal {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+}
+.tour_individual .USA {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+}
+.tour_individual .Austrailia {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+}
+.tour_individual .Zealand {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+}
+.tour_individual .France {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+}
+.tour_individual .Egypt {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+}
+.tour_individual .Japan {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+}
+.tour_individual .Canada {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+}
+.tour_individual .UAE {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+}
+.tour_individual .tour_preview {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 900px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tour_individual .preview {
+  width: 275px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tour_individual .isreal1 {
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+}
+.tour_individual .isreal2 {
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+}
+.tour_individual .isreal3 {
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+}
+.tour_individual .usa1 {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+}
+.tour_individual .usa2 {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+}
+.tour_individual .usa3 {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+}
+.tour_individual .aus1 {
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+}
+.tour_individual .aus2 {
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+}
+.tour_individual .aus3 {
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+}
+.tour_individual .nz1 {
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+}
+.tour_individual .nz2 {
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+}
+.tour_individual .nz3 {
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+}
+.tour_individual .france1 {
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+}
+.tour_individual .france2 {
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+}
+.tour_individual .france3 {
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+}
+.tour_individual .egypt1 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+}
+.tour_individual .egypt2 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+}
+.tour_individual .egypt3 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+}
+.tour_individual .japan1 {
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+}
+.tour_individual .japan2 {
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+}
+.tour_individual .japan3 {
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+}
+.tour_individual .canada1 {
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+}
+.tour_individual .canada2 {
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+}
+.tour_individual .canada3 {
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+}
+.tour_individual .uae1 {
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+}
+.tour_individual .uae2 {
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+}
+.tour_individual .uae3 {
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+}
+.tour_individual .tour_days {
+  width: 100%;
+  max-width: 900px;
+  margin: 50px auto 80px auto;
+}
+.tour_individual .tour_days .dayhead {
+  font-size: 60px;
+  font-family: "Prox";
+  height: 50px;
+}
+.tour_individual .tour_days hr {
+  margin-bottom: 40px;
+  width: 160px;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.tour_individual .tour_days .daytext {
+  font-size: 16px;
+  font-family: "Gill";
+}
+.tour_individual .tour_book {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 110px auto;
+  text-align: center;
+}
+.tour_individual .tour_book button {
+  background-color: #79ADDC;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Gill";
+  font-weight: normal;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+@media all and (max-width: 950px) {
+  .tour_individual .tour_preview {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tour_individual .preview {
+    margin-bottom: 50px;
+  }
+  .tour_individual .tour_days {
+    text-align: center;
+    width: 95%;
+  }
+  .tour_individual .tour_days hr {
+    margin: 0 auto 40px auto;
   }
 }
 .booking-form {
@@ -612,18 +845,10 @@ footer .socials .fa-instagram-square {
 .aboutfoot {
   position: absolute;
   bottom: 0;
-  min-width: 750px;
 }
 
 @media only screen and (max-width: 950px) {
   footer .footerHolder {
     width: 97%;
-  }
-}
-@media only screen and (max-width: 750px) {
-  footer .footerHolder {
-    min-width: 750px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }

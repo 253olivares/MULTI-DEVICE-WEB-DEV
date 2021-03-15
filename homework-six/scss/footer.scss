@@ -41,7 +41,6 @@ footer{
 .aboutfoot{
     position: absolute;
     bottom: 0;
-    min-width: 750px;
 }
 @media only screen and (max-width: 950px){
     footer{
@@ -50,13 +49,4 @@ footer{
         }
     }
 }
-@media only screen and (max-width: 750px){
-    footer{
-        .footerHolder{
-            min-width: 750px;
-        padding-left: 15px;
-        padding-right: 15px;
-        }
-    }
- }
  

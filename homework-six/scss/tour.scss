@@ -25,7 +25,6 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap ;
-
         .tourPromo{
             width: 236px;
             height: 304px;
@@ -83,10 +82,40 @@
             background-size: cover;
          }
          .Zealand{
-
+            background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/tour/tour-04.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
          }
          .France{
-             
+            background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/tour/tour-05.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+         }
+         .Egypt{
+            background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/tour/tour-06.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+         }
+         .Japan{
+            background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/tour/tour-07.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+         }
+         .Canada{
+            background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/tour/tour-08.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+         }
+         .UAE{
+            background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/tour/tour-09.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
          }
     }
 
