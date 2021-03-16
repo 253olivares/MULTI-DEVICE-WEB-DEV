@@ -107,13 +107,100 @@
 }
 @media only screen and (max-width: 950px){
    .AboutInfo{
-       width: 97%;
+       width: 95%;
+       .aboutcontent{
+           P{
+               text-align: center;
+           }
+           hr{
+            margin: 0 auto;
+        }
+       }
+       .clientquotes{
+        margin-top: 95px;
+        margin-bottom: 150px;
+        .title{
+            text-align: center;
+        }
+        hr{
+            margin: 0 auto;
+        }
+        .client1{
+            clear: both;
+            width: 95%;
+            max-width: 720px;
+            height: 150px;
+            margin: 35px auto 0 auto;
+            font-family: "Gill";
+            .image{
+                width: 260px;
+                height: 150px;
+                float: none;
+                background-image: url(../images/about-client-01.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin: 0 auto;
+            }
+            .text{
+                position: relative;
+                float: none;
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+                height: auto;
+                font-size: 16px;
+                padding: 20px 0px 20px 0px;
+                .person{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    margin-bottom: 0px;
+                    height: 20px;
+                    font-size: 20px;
+                    font-family: "Prox";
+                    color: $site-blue;
+                }
+            }
+        }
+        .client2{
+            clear: both;
+            width: 95%;
+            max-width: 720px;
+            height: 150px;
+            margin: 175px auto 200px auto;
+            font-family: "Gill";
+            .image{
+                width: 260px;
+                height: 150px;
+                float: none;
+                background-image: url(../images/about-client-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin: 0 auto;
+            }
+            .text{
+                position: relative;
+                float: none;
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+                height: auto;
+                font-size: 16px;
+                padding: 20px 0px 20px 0px;
+                .person{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    margin-bottom: 0px;
+                    height: 20px;
+                    font-size: 20px;
+                    font-family: "Prox";
+                    color: $site-blue;
+                }
+            }
+        }
+    }
    }
 }
-@media only screen and (max-width: 750px){
-    .AboutInfo{
-        min-width: 750px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
- }
