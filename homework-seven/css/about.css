@@ -1,0 +1,10 @@
+.AboutInfo {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.AboutInfo h1 {
+  font-size: 60px;
+  font-family: "Prox";
+  margin-bottom: 0px;
+}

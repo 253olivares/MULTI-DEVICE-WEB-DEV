@@ -1,0 +1,207 @@
+.tour_individual{
+    .tour_hero{
+        width: 100%;
+        max-width: 900px;
+        height: 413px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 50px auto auto auto;
+        position: relative;
+        .header{
+            color: $white;
+            padding-left: 25px;
+            padding-top: 18px;
+            font-size: 60px;
+            font-family: "Prox";
+        }
+        .price {
+            position: absolute;
+            color: $white;
+            bottom: 5px;
+            right: 5px;
+            font-family: "Prox";
+            font-size: 25px;
+            height: 25px;
+        }
+    }
+    .isreal{
+        background-image:linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-01.jpg);
+    }
+    .USA{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-02.jpg);
+     }
+     .Austrailia{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-03.jpg);
+     }
+     .Zealand{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-04.jpg);
+     }
+     .France{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-05.jpg);
+     }
+     .Egypt{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-06.jpg);
+     }
+     .Japan{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-07.jpg);
+     }
+     .Canada{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-08.jpg);
+     }
+     .UAE{
+        background-image: linear-gradient(to bottom, $overlay-black, $overlay-black), url(../images/tour/tour-09.jpg);
+     }
+    .tour_preview{
+        margin-top: 40px;
+        width: 100%;
+        max-width: 900px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .preview{
+        width: 275px;
+        height: 330px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .isreal1{
+        background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+    }
+    .isreal2{
+        background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+    }
+    .isreal3{
+        background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+    }
+    .usa1{
+        background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+    }
+    .usa2{
+        background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+    }
+    .usa3{
+        background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+    }
+    .aus1{
+        background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+    }
+    .aus2{
+        background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+    }
+    .aus3{
+        background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+    }
+    .nz1{
+        background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+    }
+    .nz2{
+        background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+    }
+    .nz3{
+        background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+    }
+    .france1{
+        background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+    }
+    .france2{
+        background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+    }
+    .france3{
+        background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+    }
+    .egypt1{
+        background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+    }
+    .egypt2{
+        background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+    }
+    .egypt3{
+        background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+    }
+    .japan1{
+        background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+    }
+    .japan2{
+        background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+    }
+    .japan3{
+        background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+    }
+    .canada1{
+        background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+    }
+    .canada2{
+        background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+    }
+    .canada3{
+        background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+    }
+    .uae1{
+        background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+    }
+    .uae2{
+        background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+    }
+    .uae3{
+        background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+    }
+    .tour_days{
+        width: 100%;
+        max-width: 900px;
+        margin: 50px auto 80px auto;
+        .dayhead{
+            font-size: 60px;
+            font-family: "Prox";
+            height: 50px;
+        }
+        hr{
+            margin-bottom: 40px;
+            width: 160px;
+            height: 2px;
+            background: $black;
+            border: none;
+        }
+        .daytext{
+            font-size: 16px;
+            font-family: "Gill";
+        }
+    }
+    .tour_book{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto 110px auto;
+        text-align: center;
+        button{
+            background-color: $site-blue;
+            color: $white;
+            font-size: 15px;
+            font-family: "Gill";
+            font-weight: normal;
+            border: none;
+            padding:10px;
+            border-radius: 25px;
+        }
+    }
+}
+@media all and (max-width: 950px){
+    .tour_individual{
+        .tour_preview{
+            flex-direction: column;
+            align-items: center;
+        }
+        .preview{
+            margin-bottom: 50px;
+        }
+        .tour_days{
+            text-align: center;
+            width: 95%;
+            hr{
+                margin: 0 auto 40px auto;
+            }
+        }
+    }
+
+}
