@@ -526,6 +526,265 @@ nav span {
     margin: 0 auto 40px auto;
   }
 }
+.SpecialOfferPage {
+  padding-top: 70px;
+  clear: both;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.SpecialOfferPage .header p {
+  font-size: 30px;
+  font-family: "Prox";
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  letter-spacing: 3px;
+}
+.SpecialOfferPage hr {
+  width: 200px;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.SpecialOfferPage .Barcelona {
+  padding-top: 35px;
+  width: 100%;
+  display: flex;
+}
+.SpecialOfferPage .Barcelona .BarcelonaImage {
+  width: 210px;
+  height: 287px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.SpecialOfferPage .Barcelona .Barcelona_Info {
+  width: 320px;
+  position: relative;
+  padding-left: 30px;
+}
+.SpecialOfferPage .Barcelona .Barcelona_Info .head p {
+  font-size: 30px;
+  font-family: "Prox";
+  height: 30px;
+  margin-bottom: 5px;
+}
+.SpecialOfferPage .Barcelona .Barcelona_Info hr {
+  width: 175px;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.SpecialOfferPage .Barcelona .Barcelona_Info .discount {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  color: #ff7d38;
+}
+.SpecialOfferPage .Barcelona .Barcelona_Info .BarcelonaInfo {
+  margin-top: 25px;
+  font-family: "Gill";
+  font-size: 16px;
+}
+.SpecialOfferPage .Barcelona .Barcelona_Info button {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 133px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #79ADDC;
+  border: none;
+  font-family: "Gill";
+  font-size: 15px;
+}
+.SpecialOfferPage .Bangkok {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  padding-bottom: 100px;
+}
+.SpecialOfferPage .Bangkok .BangkokImage {
+  width: 210px;
+  height: 287px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.SpecialOfferPage .Bangkok .Bangkok_info {
+  width: 320px;
+  position: relative;
+  padding-left: 30px;
+}
+.SpecialOfferPage .Bangkok .Bangkok_info .head p {
+  font-size: 30px;
+  font-family: "Prox";
+  height: 30px;
+  margin-bottom: 5px;
+}
+.SpecialOfferPage .Bangkok .Bangkok_info hr {
+  width: 195px;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.SpecialOfferPage .Bangkok .Bangkok_info .discount {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  color: #ff7d38;
+}
+.SpecialOfferPage .Bangkok .Bangkok_info .BangkokInfo {
+  margin-top: 25px;
+  font-family: "Gill";
+  font-size: 16px;
+}
+.SpecialOfferPage .Bangkok .Bangkok_info button {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 133px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #79ADDC;
+  border: none;
+  font-family: "Gill";
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 950px) {
+  .SpecialOfferPage {
+    width: 95%;
+  }
+  .SpecialOfferPage .header p {
+    text-align: center;
+  }
+  .SpecialOfferPage hr {
+    margin: 0 auto;
+  }
+  .SpecialOfferPage .Barcelona {
+    flex-direction: column;
+    align-items: center;
+  }
+  .SpecialOfferPage .Barcelona .BarcelonaImage {
+    width: 300px;
+  }
+  .SpecialOfferPage .Barcelona .Barcelona_Info {
+    padding-top: 20px;
+  }
+  .SpecialOfferPage .Barcelona .Barcelona_Info p {
+    text-align: center;
+  }
+  .SpecialOfferPage .Barcelona .Barcelona_Info .discount {
+    position: relative;
+  }
+  .SpecialOfferPage .Barcelona .Barcelona_Info button {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  .SpecialOfferPage .Bangkok {
+    flex-direction: column;
+    align-items: center;
+  }
+  .SpecialOfferPage .Bangkok .BangkokImage {
+    width: 300px;
+  }
+  .SpecialOfferPage .Bangkok .Bangkok_info {
+    padding-top: 20px;
+  }
+  .SpecialOfferPage .Bangkok .Bangkok_info p {
+    text-align: center;
+  }
+  .SpecialOfferPage .Bangkok .Bangkok_info .discount {
+    position: relative;
+  }
+  .SpecialOfferPage .Bangkok .Bangkok_info button {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+}
+.BlogPage {
+  padding-top: 70px;
+  clear: both;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.BlogPage .header p {
+  font-size: 30px;
+  font-family: "Prox";
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  letter-spacing: 3px;
+}
+.BlogPage .header hr {
+  width: 70px;
+  height: 2px;
+  background: black;
+  border: none;
+}
+.BlogPage .blog {
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+}
+.BlogPage .blog .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+}
+.BlogPage .blog .date p {
+  color: #fff;
+  font-family: "Gill";
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.BlogPage .blog .date :last-child {
+  font-size: 12px;
+}
+.BlogPage .blog .content {
+  margin-left: 20px;
+  width: 100%;
+}
+.BlogPage .blog .content .blogImage {
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.BlogPage .blog .content p {
+  margin-top: 20px;
+  font-family: "Gill";
+  font-size: 15px;
+}
+.BlogPage .blog .content :last-child {
+  margin-top: 10px;
+  width: 380px;
+  font-family: "Gill";
+  font-size: 13px;
+  color: #79ADDC;
+}
+.BlogPage .last {
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 950px) {
+  .BlogPage {
+    width: 95%;
+  }
+}
 .ContactUsPage {
   padding-top: 70px;
   clear: both;
@@ -534,15 +793,15 @@ nav span {
   margin: 0 auto;
 }
 .ContactUsPage .title {
-  font-size: 60px;
+  font-size: 30px;
   font-family: "Prox";
   text-decoration: none;
   margin-bottom: 0px;
-  height: 65px;
+  height: 35px;
   letter-spacing: 5px;
 }
 .ContactUsPage hr {
-  width: 310px;
+  width: 175px;
   height: 2px;
   background: black;
   border: none;
