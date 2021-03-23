@@ -853,9 +853,45 @@ nav span {
   background-color: #79ADDC;
   border: none;
   padding: 20px;
-  color: white;
+  color: #fff;
 }
 
+@media only screen and (max-width: 950px) {
+  .ContactUsPage {
+    width: 95%;
+  }
+  .ContactUsPage .title {
+    text-align: center;
+  }
+  .ContactUsPage hr {
+    margin: 0 auto;
+  }
+  .ContactUsPage .Information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ContactUsPage .Information .imageLocal {
+    width: 100%;
+    display: flex;
+    float: none;
+  }
+  .ContactUsPage .Information .imageLocal .location {
+    padding-top: 0px;
+    margin-left: 30px;
+  }
+  .ContactUsPage .Information form {
+    margin-top: 30px;
+    width: 100%;
+    float: none;
+    padding-bottom: 100px;
+  }
+  .ContactUsPage .Information form button {
+    width: 30%;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+}
 .booking-form {
   width: 100%;
   max-width: 900px;
