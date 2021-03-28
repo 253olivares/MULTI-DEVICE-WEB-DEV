@@ -56,7 +56,7 @@ var aboutContent = `<div class="founder">
 <img src="images/Chad.jpg" alt="">
 <h3>Isaac Newton</h3>
 <br>
-<p>Founder of Cyber Security Agency after getting his information stolen several times Issac decided to
+<p>Founded Cyber Security Agency after getting his information stolen several times. To prevent this from happening time and time again Issac decided to
     begin his own secure
     agency that
     centers in helping proctect consumers. Issac began his journy in 2012 to establish a trustworthy and
