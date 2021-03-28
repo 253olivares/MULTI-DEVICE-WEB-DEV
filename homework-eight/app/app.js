@@ -114,8 +114,77 @@ var aboutContent = `<div class="founder">
 </div>`;
 
 
+// Products page content
+var productsContent = `<div class="softwareHeader">
+<h1>Software</h1>
+</div>
+<div class="SoftwarePackages">
+<div class="package1 pack">
+    <div class="imgHolder">
+        <img src="images/package.png" alt="">
+    </div>
+    <h3>Tier 1</h3>
+    <p class="price">5$</p>
+    <br>
+    <p class="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur
+        deserunt explicabo autem distinctio amet. Error eius eum dicta reprehenderit nulla autem, sit
+        delectus saepe explicabo quibusdam atque, animi magni.</p>
+    <br>
+    <br>
+    <button>BUY NOW</button>
+</div>
+<div class="package2 pack">
+    <div class="imgHolder">
+        <img src="images/package.png" alt="">
+    </div>
+    <h3>Tier 2</h3>
+    <p class="price">10$</p>
+    <br>
+    <p class="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur
+        deserunt explicabo autem distinctio amet. Error eius eum dicta reprehenderit nulla autem, sit
+        delectus saepe explicabo quibusdam atque, animi magni.</p>
+    <br>
+    <br>
+    <button>BUY NOW</button>
+</div>
+<div class="package3 pack">
+    <div class="imgHolder">
+        <img src="images/package.png" alt="">
+    </div>
+    <h3>Tier 3</h3>
+    <p class="price">15$</p>
+    <br>
+    <p class="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur
+        deserunt explicabo autem distinctio amet. Error eius eum dicta reprehenderit nulla autem, sit
+        delectus saepe explicabo quibusdam atque, animi magni.</p>
+    <br>
+    <br>
+    <button>BUY NOW</button>
+</div>
+</div>
+<div class="serviceHeader">
+<h1>Service</h1>
+</div>
+<div class="SoftwarePackages">
+<div class="package3 pack">
+    <div class="imgHolder">
+        <img src="images/package.png" alt="">
+    </div>
+    <h3>Monthly Service</h3>
+    <p class="price">30$ a Month</p>
+    <br>
+    <p class="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur
+        deserunt explicabo autem distinctio amet. Error eius eum dicta reprehenderit nulla autem, sit
+        delectus saepe explicabo quibusdam atque, animi magni.</p>
+    <br>
+    <br>
+    <button>BUY NOW</button>
+</div>
+</div>`;
 
-var productsContent = "<h1>PRODUCTS</h1><p>This is a page</p>";
+
+
+//contact content page
 var contactContent = "<h1>CONTACT</h1><p>This is a page</p>";
 
 function init() {

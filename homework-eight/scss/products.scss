@@ -1,0 +1,99 @@
+#app{
+    .softwareHeader{
+        width: 100%;
+        min-height: 400px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Software.png);
+        background-repeat: no-repeat;
+        background-position: center top ;
+        background-size: cover;
+        line-height: 400px;
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }   
+    }
+    .serviceHeader{
+        width: 100%;
+        min-height: 400px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/customer-service-trends.png);
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: cover;
+        line-height: 400px;
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }   
+    }
+    .SoftwarePackages{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 900px;
+        margin: -130px auto 100px auto;
+        .pack{
+            width: 33%;
+            h3{
+                text-align: center;
+                font-size: 30px;
+            }
+            .price{
+                text-align: center;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            .description{
+                width: 250px;
+                margin: 0 auto;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: justify;
+            }
+            button{
+                padding: 25px;
+                background-color:#3B945E ;
+                border: none ;
+                color: white;
+                margin: 0 auto;
+                display: block;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+        }
+        .imgHolder{
+        position: relative;
+        height: 265px;
+        img{
+            display: block;
+            position: absolute;
+            bottom: 0;
+        }
+        }
+        .package1{
+            img{
+                width: 70%;
+                left: 15%;
+                right: 15%;
+            }
+        }
+        .package2{
+            img{
+                width: 80%;
+                left: 10%;
+                right: 10%;
+            }
+        }
+        .package3{
+            img{
+                width: 90%;
+                left: 5%;
+                right: 5%;
+            }
+        }
+    }
+}
