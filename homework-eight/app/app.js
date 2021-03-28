@@ -52,7 +52,7 @@ var homeContent = `<div class="hero_image">
 
 
 //cpmtemt for my about page
-var aboutContent = ` <div class="founder">
+var aboutContent = `<div class="founder">
 <img src="images/Chad.jpg" alt="">
 <h3>Isaac Newton</h3>
 <br>
@@ -64,6 +64,53 @@ var aboutContent = ` <div class="founder">
 </div>
 <div class="location">
 <h1>WHERE?</h1>
+</div>
+<div class="LocationInfo">
+<img src="images/Indian.jpg" alt="">
+<p> Cyber Security was founded here in the state of indiana. Best
+    known for its corn. Currently we are
+    looking into options of expandingg into other areas especially in the west coast. Lorem ipsum dolor
+    sit, amet consectetur adipisicing elit. Sapiente, quo consequuntur nisi incidunt nulla quod
+    reprehenderit tempore rem deleniti, aperiam corrupti iure consequatur eligendi velit in! Repellat
+    consequatur necessitatibus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+    repudiandae, earum non nulla tenetur nobis illum molestias fugiat, cupiditate sed deleniti ab
+    dolorem animi voluptas aspernatur? Culpa minus libero quidem!
+</p>
+</div>
+<div class="why">
+<h1>WHY?</h1>
+</div>
+<div class="whyInfo">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati voluptas pariatur dolorem
+    veritatis quasi hic cupiditate voluptatum impedit consequatur temporibus eum, facere voluptate
+    voluptatibus eaque, eveniet iusto officia repellendus! Voluptate eveniet porro excepturi suscipit.
+    Totam, commodi quidem accusantium sapiente quas corporis voluptatibus quia maiores sunt et
+    doloremque animi dolore beatae libero labore assumenda obcaecati exercitationem id ipsa, minus
+    quisquam eveniet recusandae! Iste voluptas necessitatibus tenetur odio quasi porro velit totam, fuga
+    laudantium pariatur. Maxime, repellat. Suscipit veniam distinctio blanditiis odit amet accusantium
+    incidunt magnam pariatur, quam saepe temporibus aliquam est, doloribus adipisci ipsum facere omnis
+    praesentium eaque delectus labore!</p>
+</div>
+<div class="now">
+<h1>NOW?</h1>
+</div>
+<div class="nowInfo">
+<h1>Currently assisting 100's of businesses across Indiana!</h1>
+<br>
+<br>
+<img src="images/indiana-county-map-1000px-1.jpg" alt="">
+<br>
+<br>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cum sed beatae illo inventore ad
+    autem rem quam ex asperiores, eum vitae facilis corrupti omnis nesciunt quaerat minus, alias
+    praesentium. Pariatur nobis eos omnis eius in, quo tempora perferendis nesciunt, itaque dignissimos
+    voluptas a possimus dolorum aliquid quis tenetur recusandae architecto odit! Ex vel accusantium
+    ipsam veritatis cum, enim, ab repellendus mollitia iure, impedit autem voluptas quae odit eos
+    molestias velit ipsa. Suscipit iste adipisci delectus esse cum laudantium voluptatibus dolorem, ipsa
+    vel, a qui modi. Autem ducimus impedit, rem explicabo nostrum ex voluptatem hic, deleniti laudantium
+    magni suscipit eligendi?
+</p>
 </div>`;
 
 

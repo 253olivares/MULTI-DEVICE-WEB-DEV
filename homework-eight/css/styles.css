@@ -165,19 +165,106 @@ nav .flexbox .links a {
 }
 #app .location {
   width: 100%;
-  min-height: 550px;
+  min-height: 400px;
   margin: 0 auto;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/location.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  line-height: 550px;
+  line-height: 400px;
   margin-top: 50px;
 }
 #app .location h1 {
   color: white;
   text-align: center;
   font-size: 60px;
+}
+#app .LocationInfo {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#app .LocationInfo p {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 700px;
+  line-height: 30px;
+  text-align: justify;
+}
+#app .LocationInfo img {
+  width: 400px;
+  float: right;
+  padding: 25px;
+}
+#app .why {
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/why.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  line-height: 400px;
+  margin-top: 50px;
+}
+#app .why h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+#app .whyInfo {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#app .whyInfo p {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 700px;
+  line-height: 30px;
+  text-align: justify;
+}
+#app .now {
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/iStock_94289135_MEDIUM.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  line-height: 400px;
+  margin-top: 50px;
+}
+#app .now h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+#app .nowInfo {
+  margin-top: 50px;
+}
+#app .nowInfo h1 {
+  text-align: center;
+  font-size: 30px;
+}
+#app .nowInfo img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+#app .nowInfo p {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 700px;
+  line-height: 30px;
+  text-align: justify;
 }
 
 footer {
