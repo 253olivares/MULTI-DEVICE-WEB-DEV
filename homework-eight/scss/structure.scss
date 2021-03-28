@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+html, body {
+    position: relative;
+    clear: both;
+    min-height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: Arial, sans-serif;
+    }
+.holder{
+    padding-bottom: 100px;
+}
+    
+body::-webkit-scrollbar {
+        display: none;
+      }
+h1, h2,h3,h4,h5,h6,p {
+        margin-bottom: 16px;
+    }

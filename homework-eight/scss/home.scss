@@ -1,0 +1,77 @@
+#app{
+    .hero_image{
+        width: 100%;
+        min-height: 550px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/HeroMainImage.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        line-height: 550px;
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }
+    }
+    .contentHome1{
+        margin-top: 50px;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        h3{
+            margin-top: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .hero_image2{
+        width: 100%;
+        min-height: 550px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Customer_Service.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        line-height: 550px;
+        margin-top: 50px;
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }
+    }
+    .Feedback{
+        margin-top: 50px;
+        h1{
+            text-align: center;
+            padding-bottom: 3px;
+        }
+        hr{
+            width: 600px;
+            height: 3px;
+            border: none;
+            background-color: black;
+            margin: -15px auto 0 auto;
+        }
+        .quotes{
+            width: 800px;
+            margin: 0 auto 100px auto;
+            p{
+                width: 750px;
+                font-size: 20px;
+                line-height: 30px;
+                text-indent: 50px;
+                text-align: justify;
+                margin: 0 auto;
+                position: relative;
+                span{
+                    position: absolute;
+                    right: 0;
+                    bottom: -30px;
+                }
+            }
+        }
+    }
+}
