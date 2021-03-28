@@ -15,7 +15,7 @@ html, body {
 }
 
 .holder {
-  padding-bottom: 100px;
+  padding-bottom: 300px;
 }
 
 body::-webkit-scrollbar {
@@ -28,20 +28,32 @@ h1, h2, h3, h4, h5, h6, p {
 
 nav {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: #3B945E;
 }
 nav .flexbox {
   width: 100%;
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
-  line-height: 100px;
+  line-height: 80px;
   display: flex;
   justify-content: space-between;
 }
-nav .flexbox a {
+nav .flexbox img {
+  height: 50px;
+  align-self: flex-start;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+nav .flexbox .links {
+  display: flex;
+  justify-content: flex-end;
+}
+nav .flexbox .links a {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
+  padding-left: 20px;
   text-decoration: none;
   letter-spacing: 5px;
 }
@@ -125,9 +137,72 @@ nav .flexbox a {
 footer {
   width: 100%;
   clear: both;
-  min-height: 100px;
+  min-height: 300px;
   margin: 0 auto;
   background-color: #17252A;
+}
+footer .footerHolder {
+  width: 900px;
+  margin: 0 auto;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerHolder .logoSocialContainer {
+  margin-top: 15px;
+  width: 25%;
+}
+footer .footerHolder .logoSocialContainer img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+footer .footerHolder .logoSocialContainer P {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 19px;
+}
+footer .footerHolder .menusContainer {
+  width: 70%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .footerHolder .menusContainer .cont h5 {
+  font-size: 15px;
+  font-style: bold;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 35px;
+  text-decoration: underline;
+}
+footer .footerHolder .menusContainer .cont ul li {
+  list-style: none;
+  color: white;
+  line-height: 30px;
+  font-size: 15px;
+}
+footer .underHolder {
+  width: 900px;
+  margin: 0 auto;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .underHolder .copyright {
+  width: 70%;
+  text-align: right;
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+}
+footer .underHolder .tos {
+  width: 26%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
 }
 
 .aboutfoot {

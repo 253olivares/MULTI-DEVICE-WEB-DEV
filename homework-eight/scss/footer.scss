@@ -1,9 +1,79 @@
 footer{
     width: 100%;
     clear: both;
-    min-height: 100px;
+    min-height: 300px;
     margin: 0 auto;
     background-color: #17252A;
+    .footerHolder{
+    width: 900px;
+    margin: 0 auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    // background-color: orange;
+    .logoSocialContainer{
+        // background-color: orangered;
+        margin-top: 15px;
+        width: 25%;
+        img{
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+        P{
+            color: white;
+            font-size: 13px;
+            margin-bottom: 10px;
+            line-height: 19px;
+        }
+    }
+    .menusContainer{
+        width: 70%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        // background-color: orangered;
+        .cont{
+            h5{
+                font-size: 15px;
+                font-style: bold;
+                margin-bottom: 20px;
+                color: white;
+                line-height: 35px;
+                text-decoration: underline;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    color: white;
+                    line-height: 30px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    }
+    .underHolder{
+        width: 900px;
+    margin: 0 auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    .copyright{
+        width: 70%;
+        text-align: right;
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .tos{
+        width: 26%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    }
 }
 .aboutfoot{
     position: absolute;
