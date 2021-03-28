@@ -185,7 +185,63 @@ var productsContent = `<div class="softwareHeader">
 
 
 //contact content page
-var contactContent = "<h1>CONTACT</h1><p>This is a page</p>";
+var contactContent = `<div class="applicant">
+<h1>Want to Join us?</h1>
+</div>
+<div class="joinApp">
+<button>Join Our Team</button>
+<br>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam adipisci tenetur sint,
+    eligendi, quis doloribus obcaecati tempora consectetur possimus recusandae! Possimus voluptatibus
+    ullam, neque necessitatibus quam dolor porro nemo incidunt vitae voluptatem blanditiis eligendi
+    similique facere, magnam atque! Dolore temporibus perspiciatis ducimus eum commodi tempora deleniti
+    nostrum magni blanditiis quaerat dignissimos itaque voluptates autem, veritatis velit eius, incidunt
+    dolor porro, vitae atque molestiae optio nulla? Quam debitis quos id harum ea quae voluptatem
+    commodi. Odio quae esse veritatis, doloribus officia quas pariatur quis dicta minus quod. Dolorem
+    quidem aspernatur tenetur! Assumenda perspiciatis expedita iure quod doloremque nostrum architecto
+    corporis!</p>
+</div>
+<div class="benefits">
+<h1>Benefits</h1>
+<br>
+<ul>
+    <li>Benefit 1</li>
+    <li>Benefit 2</li>
+    <li>Benefit 3</li>
+</ul>
+<br>
+<br>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde delectus velit obcaecati, laborum
+    necessitatibus dolorem aperiam vitae veritatis, iste voluptatem, aut deserunt sequi provident. Sequi
+    perferendis voluptates natus voluptate magni consectetur consequuntur quo mollitia ex perspiciatis
+    nisi corrupti incidunt quia sunt quam, repellat quis iusto commodi nesciunt atque amet maxime
+    repellendus! Nostrum aspernatur dolorum asperiores laborum commodi eum, illo velit non atque rem
+    tenetur recusandae. Natus labore quos inventore? Deleniti dolores quos nam necessitatibus
+    voluptatibus odit similique id omnis atque nisi obcaecati possimus commodi debitis totam doloremque
+    aut nostrum recusandae autem ad minima natus, reprehenderit sequi. Blanditiis laboriosam sequi in?
+</p>
+<img src="images/Benefits.png" alt="">
+</div>
+<div class="local">
+<h1>Office Location</h1>
+<br>
+<div class="map">
+    <img src="images/c9630e6a0d4eea8424c9e77634f917b5.png" alt="">
+</div>
+<div class="mailingLocation">
+    <p>
+        Cyber Security Agency Inc. <br>
+        523 Bulivard Avenue Road, <br>
+        Glasgow, D04 89GR. <br>
+        Freephone:+1 800 559 6580 <br>
+        Telephone:+1 800 603 6035 <br>
+        FAX:+1 800 889 9898 <br>
+        E-mail: mail@CyberSecurity.org
+    </p>
+</div>
+</div>
+<br>`;
 
 function init() {
     $("nav a").click(function (e) {
