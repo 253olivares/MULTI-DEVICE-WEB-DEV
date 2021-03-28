@@ -134,6 +134,52 @@ nav .flexbox .links a {
   bottom: -30px;
 }
 
+#app {
+  margin-bottom: 100px;
+}
+#app .founder {
+  margin-top: 50px;
+  width: 100%;
+}
+#app .founder h1 {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+}
+#app .founder img {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+#app .founder h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+#app .founder p {
+  font-size: 20px;
+  width: 700px;
+  line-height: 30px;
+  text-align: justify;
+  margin: 0 auto;
+}
+#app .location {
+  width: 100%;
+  min-height: 550px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/location.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  line-height: 550px;
+  margin-top: 50px;
+}
+#app .location h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
 footer {
   width: 100%;
   clear: both;
