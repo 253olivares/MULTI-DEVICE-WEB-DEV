@@ -242,7 +242,7 @@ var contactContent = `<div class="applicant">
 </div>
 </div>
 <br>`;
-
+//fucntion to read button click and grab id of button clicked
 function init() {
     $("nav a").click(function (e) {
         let btnId = this.id;
@@ -250,7 +250,7 @@ function init() {
         $("#app").html(eval(contentID));
     });
 }
-
+//gets functions started at page load
 $(document).ready(function () {
     init();
 });
