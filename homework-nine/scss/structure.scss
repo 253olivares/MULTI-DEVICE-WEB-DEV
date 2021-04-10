@@ -11,12 +11,12 @@ html, body {
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    font-family: Arial, sans-serif;
     }
-
-#app{
-    padding-bottom: 100px;
-    padding-top: 20px;
+.holder{
+    padding-bottom: 325px;
 }
+    
 body::-webkit-scrollbar {
         display: none;
       }
