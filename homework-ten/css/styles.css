@@ -84,6 +84,51 @@ nav span {
     width: 100%;
   }
 }
+.containter {
+  width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.containter h1 {
+  color: #fff;
+  font-family: "Prox";
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 75px;
+}
+.containter p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  width: 500px;
+  margin: auto;
+  font-family: "Gill";
+  font-style: italic;
+}
+.containter .holder {
+  width: 100%;
+  text-align: center;
+  padding-top: 35px;
+}
+.containter .holder button {
+  background-color: #79ADDC;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  font-size: 15px;
+  font-family: "Gill";
+}
+
+.homeInfo {
+  display: none;
+}
+
 .promo-tours {
   width: 100%;
   max-width: 900px;

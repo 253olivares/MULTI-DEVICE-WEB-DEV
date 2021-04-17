@@ -1,4 +1,110 @@
-var homeContent = ``;
+var homeContent = `<section class="promo-tours">
+<div class="promo Isreal">
+    <h1>Isreal</h1>
+    <h3>from $1000</h3>
+    <div class="promoHolder">
+        <button onclick="window.location.href='tourpages/isreal.html'">LEARN MORE</button>
+    </div>
+</div>
+<div class="promo USA">
+    <h1>U.S.A</h1>
+    <h3>from $1500</h3>
+    <div class="promoHolder">
+        <button onclick="window.location.href='tourpages/USA.html'">LEARN MORE</button>
+    </div>
+</div>
+<div class="promo Austrailia">
+    <h1>Australia</h1>
+    <h3>from $1800</h3>
+    <div class="promoHolder">
+        <button onclick="window.location.href='tourpages/australia.html'">LEARN MORE</button>
+    </div>
+</div>
+</section>
+<section class="booking-form">
+<div class="formHolder">
+    <div class="fromHeader">
+        <h1>Booking form</h1>
+    </div>
+    <form action="">
+        <div class="holding nameEmail">
+            <input type="text" placeholder="name..." class="name">
+            <input type="email" placeholder="email..." class="email">
+        </div>
+        <div class="holding countryHotel">
+            <input type="text" placeholder="country..." class="country">
+            <input type="text" placeholder="hotel..." class="hotel">
+        </div>
+        <div class="holding checkin">
+            <h1>Check-in</h1>
+            <input id="checkin" type="date" placeholder="05/10/2020" class="date">
+        </div>
+        <div class="holding checkout">
+            <h1>Check-out</h1>
+            <input id="checkout" type="date" placeholder="05/20/2020" class="date">
+        </div>
+        <div class="holding people">
+            <div class="person">
+                <h1>Adult</h1>
+                <select name="Adults" class="Adults">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="person">
+                <h1>Children</h1>
+                <select name="Children" class="Adults">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="person">
+                <h1>Rooms</h1>
+                <select name="Rooms" class="Adults">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+
+            <datalist id="count">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+            </datalist>
+        </div>
+        <div class="holding message">
+            <textarea name="text" id="message" class="message" placeholder="message..."></textarea>
+        </div>
+        <input class="submitButton" type="submit" value="SUBMIT">
+    </form>
+</div>
+</section>`;
 var aboutContent = `<div class="AboutInfo">
 <div class="aboutcontent">
     <p class="title">ABOUT:</p>

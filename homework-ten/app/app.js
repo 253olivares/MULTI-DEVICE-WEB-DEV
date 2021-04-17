@@ -13,6 +13,8 @@ function init() {
                 console.log(contentID);
                 MODEL.getPageContent(contentID);
             });
+        } else if (contentID == "homeContent") {
+            MODEL.getPageContent(contentID);
         } else {
             MODEL.getPageContent(contentID);
         }
@@ -21,5 +23,5 @@ function init() {
 
 $(document).ready(function () {
     init();
-    // MODEL.getPageContent("homeContent");
+    MODEL.getPageContent("homeContent");
 });
