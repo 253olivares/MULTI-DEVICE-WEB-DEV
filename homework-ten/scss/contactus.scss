@@ -1,0 +1,106 @@
+.ContactUsPage{
+    padding-top: 70px;
+    clear: both;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    .title{ 
+        font-size: 30px;
+        font-family: "Prox";
+        text-decoration: none;
+        margin-bottom: 0px;
+        height: 35px;
+        letter-spacing: 5px;
+    }
+    hr{
+        width: 175px;
+        height: 2px;
+        background: $black;
+        border: none;
+    }
+    .Information{
+        padding-top: 50px;
+        min-height: 800px;
+        .imageLocal{
+            width: 50%;
+            float: left;
+            .location{
+                padding-top: 35px;
+                width: 400px;
+                font-size: 18px;
+                font-family: "Gill";
+            }
+        }
+        form{
+            width: 50%;
+            float: right;
+            input{
+                padding: 15px;
+                width: 100%;
+                border: none;
+                background-color: #f2f2f2;
+                margin-top: 16px;
+            }
+            input:first-child{
+                margin-top: 0px;
+            }
+            ::placeholder{
+                font-size: 16px;
+                font-family: "Gill";
+            }
+            textarea{
+                margin-top: 21px;
+                padding: 15px;
+                width: 100%;
+                border: none;
+                background-color: #f2f2f2; 
+                resize: none;
+            }
+            button{
+                margin-top: 20px;
+                font-size: 16px;
+                font-family: "Gill";
+                background-color: $site-blue;
+                border: none;
+                padding: 20px;
+                color:  $white;
+            }
+        }
+    }
+}   
+@media only screen and (max-width: 950px){
+    .ContactUsPage{
+        width: 95%;
+        .title{ 
+            text-align: center;
+        }
+        hr{
+           margin: 0 auto;
+        }
+        .Information{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .imageLocal{
+                width: 100%;
+                display: flex;
+                float: none;
+                .location{
+                    padding-top: 0px;
+                   margin-left: 30px;
+                }
+            }
+            form{
+                margin-top: 30px;
+                width: 100%;
+                float: none;
+                padding-bottom: 100px;
+                button{
+                    width: 30%;
+                    display: block;
+                    margin: 20px auto 0 auto;
+                }
+            }
+        }
+    }
+}

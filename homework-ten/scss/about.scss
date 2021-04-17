@@ -1,0 +1,206 @@
+.AboutInfo{
+    clear: both;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto ;
+    .aboutcontent{
+        padding-top: 70px;
+        .title{
+            font-size: 60px;
+            font-family: "Prox";
+            text-decoration: none;
+            margin-bottom: 0px;
+            height: 65px;
+            letter-spacing: 5px;
+        }
+        hr{
+            width: 160px;
+            height: 2px;
+            background: $black;
+            border: none;
+        }
+        .infotext{
+            padding-top: 35px;
+            font-size: 16px;
+            font-family: "Gill";
+        }
+    }
+    .clientquotes{
+        margin-top: 95px;
+        margin-bottom: 150px;
+        .title{
+            font-size: 40px;
+            font-family: "Prox";
+            text-decoration: none;
+            margin-bottom: 0px;
+            height: 50px;
+            letter-spacing: 5px;
+        }
+        hr{
+            width: 260px;
+            height: 2px;
+            background: $black;
+            border: none;
+        }
+        .client1{
+            margin-top: 35px;
+            width: 720px;
+            height: 150px;
+            font-family: "Gill";
+            .image{
+                width: 260px;
+                height: 150px;
+                float: left;
+                background-image: url(../images/about-client-01.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .text{
+                position: relative;
+                float: right;
+                width: 440px;
+                height: 150px;
+                font-size: 16px;
+                .person{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    font-family: "Prox";
+                    font-size: 20px;
+                    color: $site-blue;
+                }
+            }
+            
+        }
+        .client2{
+            margin-top: 35px;
+            width: 720px;
+            height: 150px;
+            font-family: "Gill";
+            .image{
+                width: 260px;
+                height: 150px;
+                float: left;
+                background-image: url(../images/about-client-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .text{
+                position: relative;
+                float: right;
+                width: 440px;
+                height: 150px;
+                font-size: 16px;
+                .person{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    font-size: 20px;
+                    font-family: "Prox";
+                    color: $site-blue;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 950px){
+   .AboutInfo{
+       width: 95%;
+       .aboutcontent{
+           P{
+               text-align: center;
+           }
+           hr{
+            margin: 0 auto;
+        }
+       }
+       .clientquotes{
+        margin-top: 95px;
+        margin-bottom: 150px;
+        .title{
+            text-align: center;
+        }
+        hr{
+            margin: 0 auto;
+        }
+        .client1{
+            clear: both;
+            width: 95%;
+            max-width: 720px;
+            height: 150px;
+            margin: 35px auto 0 auto;
+            font-family: "Gill";
+            .image{
+                width: 260px;
+                height: 150px;
+                float: none;
+                background-image: url(../images/about-client-01.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin: 0 auto;
+            }
+            .text{
+                position: relative;
+                float: none;
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+                height: auto;
+                font-size: 16px;
+                padding: 20px 0px 20px 0px;
+                .person{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    margin-bottom: 0px;
+                    height: 20px;
+                    font-size: 20px;
+                    font-family: "Prox";
+                    color: $site-blue;
+                }
+            }
+        }
+        .client2{
+            clear: both;
+            width: 95%;
+            max-width: 720px;
+            height: 150px;
+            margin: 175px auto 200px auto;
+            font-family: "Gill";
+            .image{
+                width: 260px;
+                height: 150px;
+                float: none;
+                background-image: url(../images/about-client-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin: 0 auto;
+            }
+            .text{
+                position: relative;
+                float: none;
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+                height: auto;
+                font-size: 16px;
+                padding: 20px 0px 20px 0px;
+                .person{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    margin-bottom: 0px;
+                    height: 20px;
+                    font-size: 20px;
+                    font-family: "Prox";
+                    color: $site-blue;
+                }
+            }
+        }
+    }
+   }
+}

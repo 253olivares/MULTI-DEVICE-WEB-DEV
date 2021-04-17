@@ -1,0 +1,192 @@
+.SpecialOfferPage{
+    padding-top: 70px;
+    clear: both;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    .header{
+        p{
+            font-size: 30px;
+        font-family: "Prox";
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        letter-spacing: 3px;
+        }
+    }
+    hr{
+        width: 200px;
+        height: 2px;
+        background: $black;
+        border: none;
+    }
+    .Barcelona{
+        padding-top: 35px;
+        width: 100%;
+        display: flex;
+        .BarcelonaImage{
+        width: 210px;
+        height: 287px;
+        background-image:  url(../images/special-offer-01.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+        .Barcelona_Info{
+            width: 320px;
+            position: relative;
+            padding-left:30px;
+            .head{
+                p{
+                    font-size: 30px;
+                    font-family: "Prox";
+                    height: 30px;
+                    margin-bottom: 5px;
+                }
+            }
+            hr{
+                width: 175px;
+                height: 2px;
+                background: $black;
+                border: none;
+            }
+            .discount{
+                position: absolute;
+                right: 0px;
+                top: 15px;
+                color: #ff7d38;
+            }
+            .BarcelonaInfo{
+                margin-top: 25px;
+                font-family: "Gill";
+                font-size: 16px;
+            }
+            button{
+                position: absolute ;
+                bottom: 0;
+                height: 40px;
+                width: 133px;
+                border-radius: 50px;
+                color: $white;
+                background-color: $site-blue;
+                border: none;
+                font-family: "Gill";
+                font-size: 15px;
+            }
+        }
+    }
+    .Bangkok{
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+        padding-bottom: 100px;
+        .BangkokImage{
+            width: 210px;
+            height: 287px;
+            background-image:  url(../images/special-offer-02.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+        .Bangkok_info{
+            width: 320px;
+            position: relative;
+            padding-left:30px;
+            .head{
+                p{
+                    font-size: 30px;
+                    font-family: "Prox";
+                    height: 30px;
+                    margin-bottom: 5px;
+                }
+            }
+            hr{
+                width: 195px;
+                height: 2px;
+                background: $black;
+                border: none;
+            }
+            .discount{
+                position: absolute;
+                right: 0px;
+                top: 15px;
+                color: #ff7d38;
+            }
+            .BangkokInfo{
+                margin-top: 25px;
+                font-family: "Gill";
+                font-size: 16px;
+            }
+            button{
+                position: absolute ;
+                bottom: 0;
+                height: 40px;
+                width: 133px;
+                border-radius: 50px;
+                color: $white;
+                background-color: $site-blue;
+                border: none;
+                font-family: "Gill";
+                font-size: 15px;
+            }
+        }
+    }   
+}
+@media only screen and (max-width: 950px){
+    .SpecialOfferPage{
+        width: 95%;
+        .header{
+            p{
+            text-align: center;
+            }
+        }
+        hr{
+            margin: 0 auto;
+        }
+        .Barcelona{
+            flex-direction: column;
+            align-items: center;
+            .BarcelonaImage{
+                width: 300px;
+            }
+            .Barcelona_Info{
+                padding-top:20px;
+                padding-left: 0px;
+                p{
+                    text-align: center;
+                }
+                .discount{
+                    position: relative;
+                }
+                button{
+                    position: relative;
+                    margin: 0 auto;
+                    text-align: center;
+                    display: block;
+                }
+            }
+        }
+        .Bangkok{
+            flex-direction: column;
+            align-items: center;
+            .BangkokImage{
+                width: 300px;
+            }
+            .Bangkok_info{                                  
+                padding-top:20px;
+                padding-left: 0px;
+                p{
+                    text-align: center;
+                }
+                .discount{
+                    position: relative;
+                }
+                button{
+                    position: relative;
+                    margin: 0 auto;
+                    text-align: center;
+                    display: block;
+                }
+            }
+        }
+    }
+}
