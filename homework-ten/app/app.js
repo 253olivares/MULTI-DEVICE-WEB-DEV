@@ -7,6 +7,15 @@ function init() {
         console.log(contentID);
         if (contentID == "toursContent") {
             MODEL.getPageContent(contentID);
+            $(".whiteLogo").css("display", "none");
+            $(".blackLogo").css("display", "block");
+            $(".colorChange")
+                .removeClass(`white`)
+                .addClass(`black`);
+            $(".removeClass")
+                .removeClass(`containter`);
+            $(".homeHeroinfo")
+                .css("display", "none");
             $(".local").click(function (e) {
                 let tourID = this.id;
                 let contentID = tourID + "Content";
@@ -15,13 +24,34 @@ function init() {
             });
         } else if (contentID == "homeContent") {
             MODEL.getPageContent(contentID);
+            $(".blackLogo").css("display", "none");
+            $(".whiteLogo").css("display", "block");
+            $(".colorChange")
+                .removeClass(`white`)
+                .addClass(`white`);
+            $(".removeClass")
+                .addClass(`containter`);
+            $(".homeHeroinfo")
+                .css("display", "block");
+
         } else {
             MODEL.getPageContent(contentID);
+            $(".colorChange")
+                .removeClass(`white`)
+                .addClass(`black`);
+            $(".whiteLogo").css("display", "none");
+            $(".blackLogo").css("display", "block");
+            $(".removeClass")
+                .removeClass(`containter`);
+            $(".homeHeroinfo")
+                .css("display", "none");
         }
     });
+
 }
 
 $(document).ready(function () {
     init();
+    $(".blackLogo").css("display", "none");
     MODEL.getPageContent("homeContent");
 });

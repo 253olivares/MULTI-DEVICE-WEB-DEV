@@ -56,7 +56,6 @@ nav .links {
 }
 nav a {
   text-decoration: none;
-  color: black;
   margin: auto;
 }
 nav span {
@@ -123,10 +122,6 @@ nav span {
   padding: 8px;
   font-size: 15px;
   font-family: "Gill";
-}
-
-.homeInfo {
-  display: none;
 }
 
 .promo-tours {
