@@ -29,7 +29,7 @@ nav{
     }
 }
 .homeInfo{
-    display: none;
+    display: block;
     width: 100%;
     max-width: 980px;
     margin: 0 auto;
@@ -77,6 +77,12 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.whiteLogo{
+    display: block;
+}
+.blackLogo{
+    display: none;
 }
 .black{
     margin-top: 20px;

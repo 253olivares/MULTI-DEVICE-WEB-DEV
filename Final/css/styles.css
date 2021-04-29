@@ -89,7 +89,7 @@ nav span {
 }
 
 .homeInfo {
-  display: none;
+  display: block;
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -137,6 +137,14 @@ nav span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.whiteLogo {
+  display: block;
+}
+
+.blackLogo {
+  display: none;
 }
 
 .black {
@@ -294,6 +302,90 @@ nav span {
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 95px;
+}
+
+.gallery {
+  width: 100%;
+  max-width: 980px;
+  margin: 64px auto 0 auto;
+}
+.gallery .head {
+  font-size: 25px;
+  font-family: "Gill";
+  height: 25px;
+}
+.gallery hr {
+  height: 3px;
+  width: 250px;
+  background-color: black;
+}
+.gallery .galleryClicable {
+  width: 100%;
+  margin: 30px auto 0 auto;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gallery .galleryClicable .click {
+  cursor: pointer;
+}
+.gallery .galleryClicable .row1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.gallery .galleryClicable .row1 #food {
+  display: block;
+  width: 489px;
+  height: 187px;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallery .galleryClicable .row1 #dj {
+  display: block;
+  width: 265px;
+  height: 187px;
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.75), rgba(238, 67, 103, 0.75)), url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallery .galleryClicable .row1 #speech {
+  display: block;
+  width: 187px;
+  height: 187px;
+  background-image: linear-gradient(to right, rgba(8, 173, 105, 0.75), rgba(8, 173, 105, 0.75)), url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallery .galleryClicable .row2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery .galleryClicable .row2 #fest {
+  display: block;
+  width: 603px;
+  height: 306px;
+  background-image: linear-gradient(to right, rgba(84, 13, 110, 0.75), rgba(84, 13, 110, 0.75)), url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallery .galleryClicable .row2 #international {
+  display: block;
+  width: 355px;
+  height: 306px;
+  background-image: linear-gradient(to right, rgba(59, 206, 171, 0.75), rgba(59, 206, 171, 0.75)), url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {

@@ -5,5 +5,5 @@ function init() {
 
 $(document).ready(function () {
     init();
-    // MODEL.getPageContent("homeContent");
+    MODEL.getPageContent("homeContent");
 });

@@ -1,0 +1,83 @@
+.gallery{
+    width: 100%;
+    max-width: 980px;
+    margin: 64px auto 0 auto;
+    .head{
+        font-size: 25px;
+        font-family: "Gill";
+        height: 25px;
+    }
+    hr{
+        height: 3px;
+        width: 250px;
+        background-color: black;
+    }
+    .galleryClicable{
+        width: 100%;
+        margin: 30px auto 0 auto;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .click{
+            cursor: pointer;
+        }
+        .row1{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            #food{
+                display: block;
+                width: 489px;
+                height: 187px;
+                background-image: linear-gradient(to right, $yellow-overlay, $yellow-overlay), url(../images/gallery/1.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            #dj{
+                display: block;
+                width: 265px;
+                height: 187px;
+                background-image: linear-gradient(to right, $pink-overlay, $pink-overlay), url(../images/gallery/1.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            #speech{
+                display: block;
+                width: 187px;
+                height: 187px;
+                background-image: linear-gradient(to right, $green-overlay, $green-overlay), url(../images/gallery/1.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+        .row2{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            #fest{
+                display: block;
+                width: 603px;
+                height: 306px;
+                background-image: linear-gradient(to right, $purple-overlay, $purple-overlay), url(../images/gallery/1.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            #international{
+                display: block;
+                width: 355px;
+                height: 306px;
+                background-image: linear-gradient(to right, $blue-overlay, $blue-overlay), url(../images/gallery/1.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+    }
+}
