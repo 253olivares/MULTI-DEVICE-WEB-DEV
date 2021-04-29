@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  clear: both;
+  min-height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#app {
+  margin-bottom: 455px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans.ttf);
+}
+@font-face {
+  font-family: PTbold;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTbolditalix;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTItalic;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PT;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: GillBold;
+  src: url(fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: GillLight;
+  src: url(fonts/GillSans-Light.ttf);
+}
+nav {
+  width: 100%;
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+}
+nav .links {
+  width: 525px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill";
+}
+nav a {
+  text-decoration: none;
+  margin: auto;
+}
+nav span {
+  text-decoration: none;
+  color: #EE4367;
+  margin: auto;
+  font-size: 30px;
+}
+
+.homeInfo {
+  display: none;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.homeInfo .header {
+  margin-top: 65px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "PT";
+}
+.homeInfo .bodyText {
+  font-size: 20px;
+  width: 500px;
+  text-align: center;
+  font-family: "Gill";
+  font-style: italic;
+  color: white;
+  margin: 45px auto 0 auto;
+}
+.homeInfo .lessImporant {
+  font-size: 20px;
+  font-family: "Gill";
+  font-style: italic;
+  text-align: center;
+  color: #EE4367;
+}
+.homeInfo button {
+  display: block;
+  margin: 50px auto 0 auto;
+  padding: 15px;
+  background-color: #EE4367;
+  font-family: "Gill";
+  border: none;
+  font-size: 15px;
+  color: white;
+}
+
+.heroImage {
+  padding-top: 20px;
+  width: 100%;
+  min-height: 500px;
+  clear: both;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.black {
+  margin-top: 20px;
+  border-bottom: black solid 2px;
+}
+.black a {
+  color: black;
+}
+
+.white {
+  border-bottom: white solid 2px;
+}
+.white a {
+  color: white;
+}
+
+.quote {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+.quote .textCenter {
+  margin: 70px auto 70px auto;
+  width: 750px;
+  display: block;
+}
+.quote .textCenter .dialog {
+  color: #FFD140;
+  font-family: "Gill";
+  font-size: 15px;
+  line-height: 25px;
+  font-style: "GillSemiBold";
+}
+.quote .textCenter .individuual {
+  color: #EE4367;
+  font-size: 15px;
+  font-family: "PT";
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+.quote .textCenter .info {
+  font-size: 10px;
+  font-family: "PT";
+  color: #A8A8A8;
+}
+
+.upcomingEvents {
+  background-color: #540D6E;
+  padding-top: 40px;
+}
+.upcomingEvents .eventInfo {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
+.upcomingEvents .eventInfo .label {
+  display: block;
+  color: white;
+  line-height: 25px;
+  width: 375px;
+  font-size: 25px;
+  font-family: "Gill";
+  white-space: white;
+}
+.upcomingEvents .eventInfo hr {
+  width: 375px;
+  background-color: white;
+  height: 2px;
+}
+.upcomingEvents .eventInfo .calender {
+  padding-top: 34.5px;
+  display: flex;
+  padding-bottom: 45px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.upcomingEvents .eventInfo .calender .event {
+  display: flex;
+}
+.upcomingEvents .eventInfo .calender .event .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.upcomingEvents .eventInfo .calender .event .date p {
+  color: white;
+  font-family: "GillBold";
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.upcomingEvents .eventInfo .calender .event .date :last-child {
+  font-family: "GillLight";
+  font-size: 12px;
+}
+.upcomingEvents .eventInfo .calender .event .contentEvent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  margin-left: 20px;
+}
+.upcomingEvents .eventInfo .calender .event .contentEvent p {
+  color: white;
+  font-family: "Gill";
+  font-size: 15px;
+}
+.upcomingEvents .eventInfo .calender .event .contentEvent :last-child {
+  font-family: "Gill";
+  font-size: 13px;
+  color: #EE4367;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  min-height: 455px;
+  background-color: #EE4367;
+}
+footer .footerHolder {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+footer .footerLogo {
+  width: 136px;
+  height: 42px;
+  display: block;
+  text-align: center;
+  margin: 35px auto 45px auto;
+}
+footer .information {
+  font-size: 16 px;
+  text-align: center;
+  font-family: "Gill";
+  line-height: 10px;
+  color: white;
+}
+footer .newspaperSub {
+  width: 100%;
+  max-width: 600px;
+  margin: 45px auto 0 auto;
+  text-align: center;
+}
+footer .newspaperSub input {
+  height: 60px;
+  padding: 15px;
+  width: 75%;
+  font-size: 17px;
+  border: none;
+  margin-right: none;
+  background-color: #F56B88;
+}
+footer .newspaperSub ::placeholder {
+  color: white;
+  font-family: "Gill";
+  font-size: 16px;
+  opacity: 0.5;
+}
+footer .newspaperSub button {
+  color: #EE4367;
+  font-family: "Gill";
+  height: 60px;
+  float: right;
+  width: 25%;
+  padding: 15px;
+  margin-left: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+footer .socialMedia {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+}
+footer .socialMedia .center {
+  margin-left: 31px;
+  margin-right: 31px;
+}
+footer .copyright {
+  opacity: 0.5;
+  margin-top: 45px;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Gill";
+  color: white;
+}

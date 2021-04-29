@@ -1,0 +1,79 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    min-height: 455px;
+    background-color: $site-pink;
+    .footerHolder{
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+    }
+    .footerLogo{
+        width: 136px;
+        height: 42px;
+        display: block;
+        text-align: center;
+        margin: 35px auto 45px auto;
+    }
+    .information{
+        font-size: 16   px;
+        text-align: center;
+        font-family: "Gill"; 
+        line-height: 10px;
+        color: white;
+    }
+    .newspaperSub{
+        width: 100%;
+        max-width: 600px;
+        margin: 45px auto 0 auto;
+        text-align: center;
+        input{
+            height: 60px;
+            padding: 15px;
+            width: 75%;
+            font-size: 17px;
+            border: none;
+            margin-right:none ;
+            background-color: #F56B88;
+        }
+        ::placeholder{
+            color: white;
+            font-family: "Gill"; 
+            font-size: 16px;
+            opacity: .5;
+        }
+        button{
+            color: $site-pink;
+            font-family: "Gill"; 
+            height: 60px;
+            float: right;
+            width: 25%;
+            padding: 15px;
+            margin-left: none ;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+
+        }
+    }
+    .socialMedia{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        font-size: 30px;
+        .center{
+            margin-left: 31px;
+            margin-right: 31px;
+        }
+    }
+    .copyright{
+        opacity: .5;
+        margin-top: 45px;
+        font-size: 12px;
+        text-align: center;
+        font-family: "Gill"; 
+        color: white;
+    }
+}

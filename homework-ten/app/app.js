@@ -33,6 +33,21 @@ function init() {
                 .addClass(`containter`);
             $(".homeHeroinfo")
                 .css("display", "block");
+                $("button").click(function (e) {
+                    $(".whiteLogo").css("display", "none");
+            $(".blackLogo").css("display", "block");
+            $(".colorChange")
+                .removeClass(`white`)
+                .addClass(`black`);
+            $(".removeClass")
+                .removeClass(`containter`);
+            $(".homeHeroinfo")
+                .css("display", "none");
+                    let tourID = this.id;
+                    let contentID = tourID + "Content";
+                    console.log(contentID);
+                    MODEL.getPageContent(contentID);
+                });
 
         } else {
             MODEL.getPageContent(contentID);
@@ -54,4 +69,19 @@ $(document).ready(function () {
     init();
     $(".blackLogo").css("display", "none");
     MODEL.getPageContent("homeContent");
+    $("button").click(function (e) {
+        $(".whiteLogo").css("display", "none");
+            $(".blackLogo").css("display", "block");
+            $(".colorChange")
+                .removeClass(`white`)
+                .addClass(`black`);
+            $(".removeClass")
+                .removeClass(`containter`);
+            $(".homeHeroinfo")
+                .css("display", "none");
+        let tourID = this.id;
+        let contentID = tourID + "Content";
+        console.log(contentID);
+        MODEL.getPageContent(contentID);
+    });
 });

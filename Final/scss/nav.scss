@@ -1,0 +1,93 @@
+nav{
+    width: 100%;
+    max-width: 980px;
+    height: 60px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        width: 136px;
+        height: 42px;
+    }
+    .links{ 
+        width: 525px;
+        height: 42px;
+        align-self: center;
+        display: flex;
+        font-size: 15px;
+        font-family: "Gill"; 
+    }
+    a{
+        text-decoration: none;
+        margin: auto;
+    }
+    span{
+        text-decoration: none;
+        color: $site-pink;
+        margin: auto;
+        font-size: 30px;
+    }
+}
+.homeInfo{
+    display: none;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    .header{
+        margin-top: 65px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-family: "PT";
+
+    }
+    .bodyText{
+        font-size: 20px;
+        width: 500px;
+        text-align: center;
+        font-family: "Gill";
+        font-style: italic;
+        color: white;
+        margin:45px auto 0 auto;
+    }
+    .lessImporant{
+        font-size: 20px;
+        font-family: "Gill";
+        font-style: italic;
+        text-align: center;
+        color: $site-pink;
+    }
+    button{
+        display: block;
+        margin: 50px auto 0 auto;
+        padding: 15px;
+        background-color: $site-pink;
+        font-family: "Gill";
+        border: none;
+        font-size: 15px;
+        color:white;
+    }
+}
+.heroImage{
+    padding-top: 20px;
+    width: 100%;
+    min-height: 500px;
+    clear: both;
+    background-image: linear-gradient(to right, $yellow-overlay, $yellow-overlay), url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.black{
+    margin-top: 20px;
+    border-bottom: $site-black solid 2px;
+    a{
+        color: $site-black;
+    }
+}
+.white{
+    border-bottom: $site-white solid 2px;
+    a{
+        color: $site-white;
+    }
+}

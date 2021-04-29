@@ -3,21 +3,21 @@ var homeContent = `<section class="promo-tours">
     <h1>Isreal</h1>
     <h3>from $1000</h3>
     <div class="promoHolder">
-        <button onclick="window.location.href='tourpages/isreal.html'">LEARN MORE</button>
+        <button id="isreal">LEARN MORE</button>
     </div>
 </div>
 <div class="promo USA">
     <h1>U.S.A</h1>
     <h3>from $1500</h3>
     <div class="promoHolder">
-        <button onclick="window.location.href='tourpages/USA.html'">LEARN MORE</button>
+        <button id="USA">LEARN MORE</button>
     </div>
 </div>
 <div class="promo Austrailia">
     <h1>Australia</h1>
     <h3>from $1800</h3>
     <div class="promoHolder">
-        <button onclick="window.location.href='tourpages/australia.html'">LEARN MORE</button>
+        <button id="australia">LEARN MORE</button>
     </div>
 </div>
 </section>

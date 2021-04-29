@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+html, body {
+    position: relative;
+    clear: both;
+    min-height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    }
+#app{
+    margin-bottom: 455px;
+}
+
+body::-webkit-scrollbar {
+        display: none;
+      }
+h1, h2,h3,h4,h5,h6,p {
+        margin-bottom: 16px;
+    }
+    @font-face {
+        font-family: Gill;
+        src: url(fonts/GillSans.ttf);
+    }
+    
+    @font-face {
+        font-family: PTbold;
+        src: url(fonts/PTSerif-Bold.ttf);
+    }
+    @font-face {
+        font-family: PTbolditalix;
+        src: url(fonts/PTSerif-BoldItalic.ttf);
+    }
+    @font-face {
+        font-family: PTItalic;
+        src: url(fonts/PTSerif-Italic.ttf);
+    }
+    @font-face {
+        font-family: PT;
+        src: url(fonts/PTSerif-Regular.ttf);
+    }
+    @font-face {
+        font-family: GillBold;
+        src: url(fonts/GillSans-Bold.ttf);
+    }
+    @font-face {
+        font-family: GillLight;
+        src: url(fonts/GillSans-Light.ttf);
+    }
