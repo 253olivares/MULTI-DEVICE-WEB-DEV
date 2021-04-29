@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: GillLight;
   src: url(fonts/GillSans-Light.ttf);
 }
+@font-face {
+  font-family: GillLightItalic;
+  src: url(fonts/GillSans-LightItalic.ttf);
+}
 nav {
   width: 100%;
   max-width: 980px;
@@ -249,6 +253,47 @@ nav span {
   font-family: "Gill";
   font-size: 13px;
   color: #EE4367;
+}
+
+.history {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+.history .historyBackground {
+  margin: 85px auto 50px auto;
+  width: 100%;
+  max-width: 980px;
+  min-height: 380px;
+  position: relative;
+  display: block;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.history .historyBackground .inText {
+  position: absolute;
+  font-family: "Gill";
+  font-size: 25px;
+  bottom: 0;
+  left: 0;
+  line-height: 19px;
+  margin-bottom: 0px;
+}
+.history .historyBackground hr {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  background-color: black;
+  bottom: -20px;
+  width: 225px;
+}
+.history .description {
+  font-family: "GillLightItalic";
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 95px;
 }
 
 footer {

@@ -1,0 +1,41 @@
+.history{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    .historyBackground{
+        margin: 85px auto 50px auto;
+        width: 100%;
+        max-width: 980px;
+        min-height:380px;
+        position: relative;
+        display: block;
+        background-image: linear-gradient(to right, $yellow-overlay, $yellow-overlay), url(../images/about.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        .inText{
+            position: absolute;
+            font-family: "Gill";
+            font-size: 25px;
+            bottom: 0;
+            left: 0;
+            line-height: 19px;
+            margin-bottom: 0px;
+        }
+        hr{
+            position: absolute;
+            left: 0;
+            height: 4px;
+            background-color: black;
+            bottom: -20px;
+            width: 225px;
+        }
+    }
+    .description{
+        font-family: "GillLightItalic";
+        font-size: 16px;
+        line-height: 20px;
+       padding-bottom: 95px;
+       
+    }
+}
