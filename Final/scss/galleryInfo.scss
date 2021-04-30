@@ -1,0 +1,111 @@
+.gallerySelected{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    .galInfo{
+        margin: 64px auto 50px auto;
+        width: 100%;
+        max-width: 980px;
+        min-height:400px;
+        position: relative;
+        display: block;
+        .gal1text{
+            color: $site-yellow;
+            position: absolute;
+            bottom: -85px;
+            font-family: "Gill";
+            font-size: 140px;
+            text-shadow: 2px 3px 6px rgba(0,0,0,.35);
+            span{
+                font-size: 300px;
+            }
+        }
+        .gal2text{
+            color: $site-pink;
+            position: absolute;
+            bottom: -85px;
+            font-family: "Gill";
+            font-size: 140px;
+            text-shadow: 2px 3px 6px rgba(0,0,0,.35);
+            span{
+                font-size: 300px;
+            }
+        }
+        .gal3text{
+            color: $site-green;
+            position: absolute;
+            bottom: -85px;
+            font-family: "Gill";
+            font-size: 140px;
+            text-shadow: 2px 3px 6px rgba(0,0,0,.35);
+            span{
+                font-size: 300px;
+            }
+        }
+        .gal4text{
+            color: $site-purple;
+            position: absolute;
+            bottom: -85px;
+            font-family: "Gill";
+            font-size: 115px;
+            text-shadow: 2px 3px 6px rgba(0,0,0,.35);
+            span{
+                font-size: 300px;
+            }
+        }
+        .gal5text{
+            color: $site-lightBlue;
+            position: absolute;
+            bottom: -85px;
+            font-family: "Gill";
+            font-size: 115px;
+            text-shadow: 2px 3px 6px rgba(0,0,0,.35);
+            span{
+                font-size: 300px;
+            }
+        }
+    }
+    .gal1{
+        background-image: linear-gradient(to right, $yellow-overlay, $yellow-overlay), url(../images/gallery/1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .gal2{
+        background-image: linear-gradient(to right, $pink-overlay, $pink-overlay), url(../images/gallery/2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .gal3{
+        background-image: linear-gradient(to right, $green-overlay, $green-overlay), url(../images/gallery/3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .gal4{
+        background-image: linear-gradient(to right, $purple-overlay, $purple-overlay), url(../images/gallery/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .gal5{
+        background-image: linear-gradient(to right, $blue-overlay, $blue-overlay), url(../images/gallery/5.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .galDesc{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 73px;
+        p{
+            width: 490px;
+            font-family: "GillLightItalic";
+            font-size: 16px;
+        }
+        :last-child{
+            width: 450px;
+        }
+    }
+}

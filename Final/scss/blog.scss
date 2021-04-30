@@ -1,0 +1,77 @@
+.blogHome{
+    width: 100%;
+    max-width: 980px;
+    margin: 64px auto 0 auto;
+    .head{
+        font-size: 25px;
+        font-family: "Gill";
+        height: 25px;
+    }
+    hr{
+        height: 3px;
+        width: 250px;
+        background-color: black;
+    }
+    .calenderHolder{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        .Down{
+            display: flex;
+            flex-direction: column;
+            .post{
+                display:flex;
+                cursor: pointer;
+                .date{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 60px;
+                    height: 60px;
+                    background-color: $site-pink;
+                    p{ 
+                        color: white;
+                        font-family: "GillBold";
+                        font-size: 22px;
+                        margin-bottom: 0px;
+                    }
+                    :last-child{
+                        font-family: "GillLight";
+                        font-size: 12px;
+                    }
+                }
+                .contentPost{
+                    display: flex;
+                    flex-direction: column;
+                    width:380px;
+                    margin-left: 20px;
+                    .blogImage{
+                        display: block;
+                        width: 380px;
+                        height: 140px;
+                        background-image: url(../images/blog.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    p{ 
+                        padding-top: 20px;
+                        color: black;
+                        font-family: "Gill";
+                        font-size: 15px;
+
+                    }
+                    :last-child{
+                        padding-top: 0px;
+                        font-family: "Gill";
+                        font-size: 13px;
+                        color: $site-pink;
+                        padding-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -89,7 +89,7 @@ nav span {
 }
 
 .homeInfo {
-  display: block;
+  display: none;
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -128,6 +128,10 @@ nav span {
   color: white;
 }
 
+.media {
+  cursor: pointer;
+}
+
 .heroImage {
   padding-top: 20px;
   width: 100%;
@@ -140,11 +144,11 @@ nav span {
 }
 
 .whiteLogo {
-  display: block;
+  display: none;
 }
 
 .blackLogo {
-  display: none;
+  display: block;
 }
 
 .black {
@@ -269,7 +273,7 @@ nav span {
   margin: auto;
 }
 .history .historyBackground {
-  margin: 85px auto 50px auto;
+  margin: 64px auto 50px auto;
   width: 100%;
   max-width: 980px;
   min-height: 380px;
@@ -350,7 +354,7 @@ nav span {
   display: block;
   width: 265px;
   height: 187px;
-  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.75), rgba(238, 67, 103, 0.75)), url(../images/gallery/1.png);
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.75), rgba(238, 67, 103, 0.75)), url(../images/gallery/2.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -359,7 +363,7 @@ nav span {
   display: block;
   width: 187px;
   height: 187px;
-  background-image: linear-gradient(to right, rgba(8, 173, 105, 0.75), rgba(8, 173, 105, 0.75)), url(../images/gallery/1.png);
+  background-image: linear-gradient(to right, rgba(8, 173, 105, 0.75), rgba(8, 173, 105, 0.75)), url(../images/gallery/3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -373,7 +377,7 @@ nav span {
   display: block;
   width: 603px;
   height: 306px;
-  background-image: linear-gradient(to right, rgba(84, 13, 110, 0.75), rgba(84, 13, 110, 0.75)), url(../images/gallery/1.png);
+  background-image: linear-gradient(to right, rgba(84, 13, 110, 0.75), rgba(84, 13, 110, 0.75)), url(../images/gallery/4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -382,10 +386,252 @@ nav span {
   display: block;
   width: 355px;
   height: 306px;
-  background-image: linear-gradient(to right, rgba(59, 206, 171, 0.75), rgba(59, 206, 171, 0.75)), url(../images/gallery/1.png);
+  background-image: linear-gradient(to right, rgba(59, 206, 171, 0.75), rgba(59, 206, 171, 0.75)), url(../images/gallery/5.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.gallerySelected {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+.gallerySelected .galInfo {
+  margin: 64px auto 50px auto;
+  width: 100%;
+  max-width: 980px;
+  min-height: 400px;
+  position: relative;
+  display: block;
+}
+.gallerySelected .galInfo .gal1text {
+  color: #FFD140;
+  position: absolute;
+  bottom: -85px;
+  font-family: "Gill";
+  font-size: 140px;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
+}
+.gallerySelected .galInfo .gal1text span {
+  font-size: 300px;
+}
+.gallerySelected .galInfo .gal2text {
+  color: #EE4367;
+  position: absolute;
+  bottom: -85px;
+  font-family: "Gill";
+  font-size: 140px;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
+}
+.gallerySelected .galInfo .gal2text span {
+  font-size: 300px;
+}
+.gallerySelected .galInfo .gal3text {
+  color: #08AD69;
+  position: absolute;
+  bottom: -85px;
+  font-family: "Gill";
+  font-size: 140px;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
+}
+.gallerySelected .galInfo .gal3text span {
+  font-size: 300px;
+}
+.gallerySelected .galInfo .gal4text {
+  color: #540D6E;
+  position: absolute;
+  bottom: -85px;
+  font-family: "Gill";
+  font-size: 115px;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
+}
+.gallerySelected .galInfo .gal4text span {
+  font-size: 300px;
+}
+.gallerySelected .galInfo .gal5text {
+  color: #3BCEAB;
+  position: absolute;
+  bottom: -85px;
+  font-family: "Gill";
+  font-size: 115px;
+  text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
+}
+.gallerySelected .galInfo .gal5text span {
+  font-size: 300px;
+}
+.gallerySelected .gal1 {
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallerySelected .gal2 {
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.75), rgba(238, 67, 103, 0.75)), url(../images/gallery/2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallerySelected .gal3 {
+  background-image: linear-gradient(to right, rgba(8, 173, 105, 0.75), rgba(8, 173, 105, 0.75)), url(../images/gallery/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallerySelected .gal4 {
+  background-image: linear-gradient(to right, rgba(84, 13, 110, 0.75), rgba(84, 13, 110, 0.75)), url(../images/gallery/4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallerySelected .gal5 {
+  background-image: linear-gradient(to right, rgba(59, 206, 171, 0.75), rgba(59, 206, 171, 0.75)), url(../images/gallery/5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallerySelected .galDesc {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 73px;
+}
+.gallerySelected .galDesc p {
+  width: 490px;
+  font-family: "GillLightItalic";
+  font-size: 16px;
+}
+.gallerySelected .galDesc :last-child {
+  width: 450px;
+}
+
+.blogHome {
+  width: 100%;
+  max-width: 980px;
+  margin: 64px auto 0 auto;
+}
+.blogHome .head {
+  font-size: 25px;
+  font-family: "Gill";
+  height: 25px;
+}
+.blogHome hr {
+  height: 3px;
+  width: 250px;
+  background-color: black;
+}
+.blogHome .calenderHolder {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.blogHome .calenderHolder .Down {
+  display: flex;
+  flex-direction: column;
+}
+.blogHome .calenderHolder .Down .post {
+  display: flex;
+  cursor: pointer;
+}
+.blogHome .calenderHolder .Down .post .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.blogHome .calenderHolder .Down .post .date p {
+  color: white;
+  font-family: "GillBold";
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.blogHome .calenderHolder .Down .post .date :last-child {
+  font-family: "GillLight";
+  font-size: 12px;
+}
+.blogHome .calenderHolder .Down .post .contentPost {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  margin-left: 20px;
+}
+.blogHome .calenderHolder .Down .post .contentPost .blogImage {
+  display: block;
+  width: 380px;
+  height: 140px;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blogHome .calenderHolder .Down .post .contentPost p {
+  padding-top: 20px;
+  color: black;
+  font-family: "Gill";
+  font-size: 15px;
+}
+.blogHome .calenderHolder .Down .post .contentPost :last-child {
+  padding-top: 0px;
+  font-family: "Gill";
+  font-size: 13px;
+  color: #EE4367;
+  padding-bottom: 30px;
+}
+
+.blogPost {
+  width: 100%;
+  max-width: 980px;
+  margin: 64px auto 0 auto;
+}
+.blogPost .blogHero {
+  width: 100%;
+  max-width: 980px;
+  min-height: 300px;
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.75), rgba(238, 67, 103, 0.75)), url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogPost .blogHero .blogDate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: #EE4367;
+}
+.blogPost .blogHero .blogDate p {
+  color: white;
+  font-family: "GillBold";
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+.blogPost .blogHero .blogDate :last-child {
+  font-family: "GillLight";
+  font-size: 20px;
+}
+.blogPost .blogText {
+  width: 100%;
+  max-width: 980px;
+  padding-bottom: 150px;
+}
+.blogPost .blogText .head {
+  font-size: 20px;
+  font-family: "Gill";
+  color: #EE4367;
+  padding-top: 50px;
+}
+.blogPost .blogText .text {
+  padding-top: 20px;
+  font-family: "GillLight";
+  font-size: 20px;
 }
 
 footer {

@@ -29,7 +29,7 @@ nav{
     }
 }
 .homeInfo{
-    display: block;
+    display: none;
     width: 100%;
     max-width: 980px;
     margin: 0 auto;
@@ -68,6 +68,9 @@ nav{
         color:white;
     }
 }
+.media{
+    cursor: pointer;
+}
 .heroImage{
     padding-top: 20px;
     width: 100%;
@@ -79,10 +82,10 @@ nav{
     background-size: cover;
 }
 .whiteLogo{
-    display: block;
+    display: none;
 }
 .blackLogo{
-    display: none;
+    display: block;
 }
 .black{
     margin-top: 20px;

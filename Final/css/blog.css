@@ -1,0 +1,15 @@
+.blogHome {
+  width: 100%;
+  max-width: 980px;
+  margin: 64px auto 0 auto;
+}
+.blogHome .head {
+  font-size: 25px;
+  font-family: "Gill";
+  height: 25px;
+}
+.blogHome hr {
+  height: 3px;
+  width: 250px;
+  background-color: black;
+}
