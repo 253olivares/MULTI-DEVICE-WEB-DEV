@@ -8,6 +8,7 @@ nav{
     .logo{
         width: 136px;
         height: 42px;
+        cursor: pointer;
     }
     .links{ 
         width: 525px;
@@ -100,3 +101,8 @@ nav{
         color: $site-white;
     }
 }
+@media only screen and (max-width: 980px){
+    nav{
+       width: 95%;
+    }
+ }

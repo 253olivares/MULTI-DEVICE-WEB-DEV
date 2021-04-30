@@ -4,7 +4,8 @@
     margin: auto;
     .textCenter{
         margin: 70px auto 70px auto;
-        width: 750px;
+        width: 100%;
+        max-width: 750px;
         display: block;
         .dialog{
             color: $site-yellow;
@@ -44,7 +45,8 @@
             white-space: white ;
         }
         hr{
-            width: 375px;
+            width: 95%;
+            max-width: 375px;
             background-color: white;
             height: 2px;
         }
@@ -97,3 +99,15 @@
         }
     }
 }
+@media only screen and (max-width: 950px){
+    .quote{
+       width: 90%;
+    }
+ }
+ @media only screen and (max-width: 1200px){
+    .upcomingEvents{
+        .eventInfo{
+            width: 95%;
+        }
+    }
+ }

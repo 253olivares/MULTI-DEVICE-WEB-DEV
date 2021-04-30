@@ -60,6 +60,7 @@ function init() {
                 $(".blackLogo").css("display", "none");
             $(".whiteLogo").css("display", "none");
             $(".blackLogo").css("display", "block");
+            
         }
     });
 
@@ -77,9 +78,26 @@ function socialMedia(){
         }
     });
 }
+function logoClick(){
+    $(".logo").click(function (e){
+        let btnID = this.id;    
+        let contentID = btnID + "Content";
+        MODEL.getPageContent(contentID);
+        $(".blackLogo").css("display", "none");
+            $(".whiteLogo").css("display", "block");
+            $(".colorChange")
+                .removeClass(`black`)
+                .addClass(`white`);
+            $(".navContainer")
+                .addClass(`heroImage`);
+            $(".homeInfo")
+                .css("display", "block");
+    });
+}
 
 $(document).ready(function () {
     init();
     socialMedia();
+    logoClick();
     MODEL.getPageContent("homeContent");
 });

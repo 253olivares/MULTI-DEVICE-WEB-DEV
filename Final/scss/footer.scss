@@ -6,7 +6,7 @@ footer{
     min-height: 455px;
     background-color: $site-pink;
     .footerHolder{
-        width: 100%;
+        width: 95%;
         max-width: 980px;
         margin: auto;
     }
@@ -25,7 +25,7 @@ footer{
         color: white;
     }
     .newspaperSub{
-        width: 100%;
+        width: 98%;
         max-width: 600px;
         margin: 45px auto 0 auto;
         text-align: center;
@@ -77,3 +77,23 @@ footer{
         color: white;
     }
 }
+@media only screen and (max-width: 600px){
+    .newspaperSub{
+        input{
+            font-size: 10px;
+            border: none;
+            margin-right:none ;
+            background-color: #F56B88;
+        }
+        ::placeholder{
+            color: white;
+            font-family: "Gill"; 
+            font-size: 9px;
+            opacity: .5;
+        }
+        button{
+            font-size: 10px;
+
+        }
+    }
+ }
