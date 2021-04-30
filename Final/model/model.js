@@ -281,7 +281,22 @@ var Nov23Content = `<div class="blogPost">
     <p class="text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
 </div>
 </div>`;
-var contactContent = ``;
+var contactContent = ` <div class="contactPage"> 
+<p class="head">CONTACT US:</p>
+<hr>
+<div class="contactContent">
+    <div class="form">
+        <input type="text" placeholder="Your name...">
+        <input type="text" placeholder="Email Address">
+        <input type="text" placeholder="Company">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message..."></textarea>
+        <button>
+            SEND MESSAGE
+        </button>
+    </div>
+    <div class="map"></div>
+</div>
+</div>`;
 
 
 export function getPageContent(pageId) {

@@ -81,5 +81,5 @@ function socialMedia(){
 $(document).ready(function () {
     init();
     socialMedia();
-    // MODEL.getPageContent("homeContent");
+    MODEL.getPageContent("homeContent");
 });

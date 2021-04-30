@@ -89,7 +89,7 @@ nav span {
 }
 
 .homeInfo {
-  display: none;
+  display: block;
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -144,11 +144,11 @@ nav span {
 }
 
 .whiteLogo {
-  display: none;
+  display: block;
 }
 
 .blackLogo {
-  display: block;
+  display: none;
 }
 
 .black {
@@ -632,6 +632,79 @@ nav span {
   padding-top: 20px;
   font-family: "GillLight";
   font-size: 20px;
+}
+
+.contactPage {
+  width: 100%;
+  max-width: 980px;
+  margin: 64px auto 0 auto;
+}
+.contactPage .head {
+  font-size: 25px;
+  font-family: "Gill";
+  height: 25px;
+}
+.contactPage hr {
+  height: 3px;
+  width: 250px;
+  background-color: black;
+}
+.contactPage .contactContent {
+  padding-top: 65.5px;
+  padding-bottom: 90px;
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+.contactPage .contactContent .form {
+  width: 100%;
+  max-width: 529px;
+  display: block;
+}
+.contactPage .contactContent .form input {
+  padding: 15px;
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: #f2f2f2;
+  margin-bottom: 21px;
+}
+.contactPage .contactContent .form input:first-child {
+  margin-top: 0px;
+}
+.contactPage .contactContent .form ::placeholder {
+  font-size: 16px;
+  font-family: "Gill";
+  opacity: 0.5;
+}
+.contactPage .contactContent .form textarea {
+  padding: 15px;
+  width: 100%;
+  height: 200px;
+  border: none;
+  background-color: #f2f2f2;
+  resize: none;
+}
+.contactPage .contactContent .form button {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Gill";
+  background-color: #EE4367;
+  border: none;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+.contactPage .contactContent .map {
+  display: block;
+  width: 100%;
+  width: 400px;
+  height: 442px;
+  background-image: url(../images/map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
