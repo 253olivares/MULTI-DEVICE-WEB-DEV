@@ -98,6 +98,7 @@
     .galDesc{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         padding-bottom: 73px;
         p{
             width: 490px;
@@ -106,6 +107,95 @@
         }
         :last-child{
             width: 450px;
+        }
+    }
+}
+@media only screen and (max-width: 980px){
+    .gallerySelected{
+        width: 95%;
+        .galInfo{
+            .gal1text{
+                bottom: -62px;
+                font-size: 100px;
+                span{
+                    font-size: 200px;
+                }
+            }
+            .gal2text{
+                bottom: -62px;
+                font-size: 100px;
+                span{
+                    font-size: 200px;
+                }
+            }
+            .gal3text{
+                bottom: -62px;
+                font-size: 100px;
+                span{
+                    font-size: 200px;
+                }
+            }
+            .gal4text{
+                bottom: -62px;
+                font-size: 70px;
+                span{
+                    font-size: 200px;
+                }
+            }
+            .gal5text{
+                bottom: -62px;
+                font-size: 70px;
+                span{
+                    font-size: 200px;
+                }
+            }
+        }
+        .galDesc{
+            justify-content: space-around;
+            :last-child{
+                margin-top: 20px;
+            }
+        }
+    }
+ }
+ @media only screen and (max-width: 725px){
+    .gallerySelected{
+        .galInfo{
+            .gal1text{
+                bottom: -50px;
+                font-size: 70px;
+                span{
+                    font-size: 150px;
+                }
+            }
+            .gal2text{
+                bottom: -50px;
+                font-size: 70px;
+                span{
+                    font-size: 150px;
+                }
+            }
+            .gal3text{
+                bottom: -50px;
+                font-size: 70px;
+                span{
+                    font-size: 150px;
+                }
+            }
+            .gal4text{
+                bottom: -50px;
+                font-size: 40px;
+                span{
+                    font-size: 150px;
+                }
+            }
+            .gal5text{
+                bottom: -50px;
+                font-size: 40px;
+                span{
+                    font-size: 150px;
+                }
+            }
         }
     }
 }

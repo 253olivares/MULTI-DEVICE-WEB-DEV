@@ -54,7 +54,7 @@
             padding-top: 34.5px;
             display: flex;
             padding-bottom: 45px;
-            justify-content: space-around;
+            justify-content: space-between;
             flex-wrap: wrap;
             .event{
                 display: flex;
@@ -99,7 +99,7 @@
         }
     }
 }
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 980px){
     .quote{
        width: 90%;
     }
@@ -108,6 +108,9 @@
     .upcomingEvents{
         .eventInfo{
             width: 95%;
+            .calender{
+                justify-content: space-around;
+            }
         }
     }
  }

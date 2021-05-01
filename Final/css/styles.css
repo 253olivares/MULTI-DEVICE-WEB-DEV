@@ -91,7 +91,7 @@ nav span {
 
 .homeInfo {
   display: block;
-  width: 100%;
+  width: 95%;
   max-width: 980px;
   margin: 0 auto;
 }
@@ -231,7 +231,7 @@ nav span {
   padding-top: 34.5px;
   display: flex;
   padding-bottom: 45px;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .upcomingEvents .eventInfo .calender .event {
@@ -275,7 +275,7 @@ nav span {
   color: #EE4367;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 980px) {
   .quote {
     width: 90%;
   }
@@ -283,6 +283,9 @@ nav span {
 @media only screen and (max-width: 1200px) {
   .upcomingEvents .eventInfo {
     width: 95%;
+  }
+  .upcomingEvents .eventInfo .calender {
+    justify-content: space-around;
   }
 }
 .history {
@@ -326,6 +329,11 @@ nav span {
   padding-bottom: 95px;
 }
 
+@media only screen and (max-width: 980px) {
+  .history {
+    width: 90%;
+  }
+}
 .gallery {
   width: 100%;
   max-width: 980px;
@@ -410,6 +418,53 @@ nav span {
   background-size: cover;
 }
 
+@media only screen and (max-width: 980px) {
+  .gallery {
+    width: 95%;
+  }
+  .gallery .head {
+    text-align: center;
+  }
+  .gallery hr {
+    text-align: center;
+    margin: auto;
+  }
+  .gallery .galleryClicable .row1 {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery .galleryClicable .row1 #food {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .gallery .galleryClicable .row1 #dj {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .gallery .galleryClicable .row1 #speech {
+    width: 100%;
+    height: 200px;
+  }
+  .gallery .galleryClicable .row2 {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery .galleryClicable .row2 #fest {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .gallery .galleryClicable .row2 #international {
+    width: 100%;
+    height: 200px;
+  }
+}
 .gallerySelected {
   width: 100%;
   max-width: 980px;
@@ -511,6 +566,7 @@ nav span {
 .gallerySelected .galDesc {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-bottom: 73px;
 }
 .gallerySelected .galDesc p {
@@ -522,6 +578,89 @@ nav span {
   width: 450px;
 }
 
+@media only screen and (max-width: 980px) {
+  .gallerySelected {
+    width: 95%;
+  }
+  .gallerySelected .galInfo .gal1text {
+    bottom: -62px;
+    font-size: 100px;
+  }
+  .gallerySelected .galInfo .gal1text span {
+    font-size: 200px;
+  }
+  .gallerySelected .galInfo .gal2text {
+    bottom: -62px;
+    font-size: 100px;
+  }
+  .gallerySelected .galInfo .gal2text span {
+    font-size: 200px;
+  }
+  .gallerySelected .galInfo .gal3text {
+    bottom: -62px;
+    font-size: 100px;
+  }
+  .gallerySelected .galInfo .gal3text span {
+    font-size: 200px;
+  }
+  .gallerySelected .galInfo .gal4text {
+    bottom: -62px;
+    font-size: 70px;
+  }
+  .gallerySelected .galInfo .gal4text span {
+    font-size: 200px;
+  }
+  .gallerySelected .galInfo .gal5text {
+    bottom: -62px;
+    font-size: 70px;
+  }
+  .gallerySelected .galInfo .gal5text span {
+    font-size: 200px;
+  }
+  .gallerySelected .galDesc {
+    justify-content: space-around;
+  }
+  .gallerySelected .galDesc :last-child {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 725px) {
+  .gallerySelected .galInfo .gal1text {
+    bottom: -50px;
+    font-size: 70px;
+  }
+  .gallerySelected .galInfo .gal1text span {
+    font-size: 150px;
+  }
+  .gallerySelected .galInfo .gal2text {
+    bottom: -50px;
+    font-size: 70px;
+  }
+  .gallerySelected .galInfo .gal2text span {
+    font-size: 150px;
+  }
+  .gallerySelected .galInfo .gal3text {
+    bottom: -50px;
+    font-size: 70px;
+  }
+  .gallerySelected .galInfo .gal3text span {
+    font-size: 150px;
+  }
+  .gallerySelected .galInfo .gal4text {
+    bottom: -50px;
+    font-size: 40px;
+  }
+  .gallerySelected .galInfo .gal4text span {
+    font-size: 150px;
+  }
+  .gallerySelected .galInfo .gal5text {
+    bottom: -50px;
+    font-size: 40px;
+  }
+  .gallerySelected .galInfo .gal5text span {
+    font-size: 150px;
+  }
+}
 .blogHome {
   width: 100%;
   max-width: 980px;
@@ -599,6 +738,24 @@ nav span {
   padding-bottom: 30px;
 }
 
+@media only screen and (max-width: 980px) {
+  .blogHome {
+    width: 95%;
+  }
+  .blogHome .head {
+    text-align: center;
+  }
+  .blogHome hr {
+    text-align: center;
+    margin: auto;
+  }
+  .blogHome .calenderHolder {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .blogPost {
   width: 100%;
   max-width: 980px;
@@ -652,6 +809,11 @@ nav span {
   font-size: 20px;
 }
 
+@media only screen and (max-width: 980px) {
+  .blogPost {
+    width: 95%;
+  }
+}
 .contactPage {
   width: 100%;
   max-width: 980px;
@@ -676,7 +838,7 @@ nav span {
   justify-content: space-between;
 }
 .contactPage .contactContent .form {
-  width: 100%;
+  width: 95%;
   max-width: 529px;
   display: block;
 }
@@ -716,8 +878,8 @@ nav span {
 }
 .contactPage .contactContent .map {
   display: block;
-  width: 100%;
-  width: 400px;
+  width: 95%;
+  max-width: 400px;
   height: 442px;
   background-image: url(../images/map.jpg);
   background-repeat: no-repeat;
@@ -725,6 +887,26 @@ nav span {
   background-size: cover;
 }
 
+@media only screen and (max-width: 980px) {
+  .contactPage {
+    width: 95%;
+  }
+  .contactPage .head {
+    text-align: center;
+  }
+  .contactPage hr {
+    text-align: center;
+    margin: auto;
+  }
+  .contactPage .contactContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactPage .map {
+    margin-top: 40px;
+  }
+}
 footer {
   position: absolute;
   bottom: 0;

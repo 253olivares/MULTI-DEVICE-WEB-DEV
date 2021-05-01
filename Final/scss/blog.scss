@@ -75,3 +75,21 @@
         }
     }
 }
+@media only screen and (max-width: 980px){
+    .blogHome{
+       width: 95%;
+       .head{
+           text-align: center;
+       }
+       hr{
+           text-align: center;
+           margin: auto;
+       }
+       .calenderHolder{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+    }
+ }
